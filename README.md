@@ -10,8 +10,8 @@ This is a description of how we calculated the quanities of certain reagents to 
   
 * probes
 * blocking oligos
-* binding beads
 * whole-genome library input for capture
+* binding beads
   
 ### References
 Suchan T., Pitteloud C., Gerasimova NS., Kostikova A., Schmid S., Arrigo N., Pajkovic M., Ronikier M., Alvarez N. 2016. Hybridization Capture Using RAD Probes (hyRAD), a New Tool for Performing Genomic Analyses on Collection Specimens. PLOS ONE 11:e0151651. DOI: 10.1371/journal.pone.0151651.  
