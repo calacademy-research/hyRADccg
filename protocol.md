@@ -12,9 +12,9 @@ Use the below protocol or your favorite other method for construction of a ddRAD
 Use the below protocol or your favorite other method that yields whole-genome libraries with indexed Illumina adapters.  
 
 ### Biotin Nick Labeling  
-using BioNick™ DNA Labeling System (Thermo Fisher Scientific)  
+* using BioNick™ DNA Labeling System (Thermo Fisher Scientific)  
     * https://www.thermofisher.com/order/catalog/product/18247015
-
+  
 Labeling Recipe  
 
 Reagent	| x1  
@@ -33,9 +33,9 @@ TOTAL |	50 µL
 * clean reactions with columns or magnetic beads  
 
 #### Zymo DNA clean and concentrate  
-using DNA Clean & Concentrator™-5 columns (Zymo Research)  
-* https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
-
+* using DNA Clean & Concentrator™-5 columns (Zymo Research)  
+    * https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
+  
 1. add 6X DNA Binding Buffer  
 * 50 µL * 6 = 300 µL DNA Binding Buffer
 * spin at 4000 x g for 3 min (800 µL column capacity)
@@ -260,9 +260,9 @@ plate read||
 * purify it with Zymo Clean & Concentrator or AMPure beads (at 1.2X beads: DNA solution)
 
 ###### Zymo DNA clean and concentrate
-using DNA Clean & Concentrator™-5 columns (Zymo Research)  
-* https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
-
+* using DNA Clean & Concentrator™-5 columns (Zymo Research)  
+    * https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
+  
 1. add 6X DNA Binding Buffer
 * 50 µL * 6 = 300 µL DNA Binding Buffer
 * spin at 4000 x g for 3 min
