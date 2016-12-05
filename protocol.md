@@ -33,6 +33,7 @@ TOTAL |	50 µL
 
 #### Zymo DNA clean and concentrate  
 using Zymo -5 columns  
+  
 1. add 6X DNA Binding Buffer  
 * 50 µL * 6 = 300 µL DNA Binding Buffer
 * spin at 4000 x g for 3 min (800 µL column capacity)
