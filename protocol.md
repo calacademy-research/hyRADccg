@@ -282,3 +282,7 @@ Protocol
 * spin at 10,000 x g for 1 min
 * final eluted volume is ~23 µL
 * keep cleaned product on ice
+
+
+### References
+Peterson (2012)
