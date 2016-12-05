@@ -1,6 +1,6 @@
 # hyRADccg protocol  
 
-* This markdown document can be printed use at the bench with no formatting worries (such as lines spanning pages).
+* This markdown document can be printed for use at the bench with no formatting worries (such as lines spanning pages).
 * The reagent-calc.md doc that is also in this repository details how we calculated the amounts of probes, blocking oligos, binding beads, and input library used in this protocol.
 
 ## Wetlab protocol  
