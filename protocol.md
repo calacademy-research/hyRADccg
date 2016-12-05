@@ -36,6 +36,7 @@ TOTAL |	50 µL
 * using DNA Clean & Concentrator™-5 columns (Zymo Research)  
     * https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
   
+Protocol  
 1. add 6X DNA Binding Buffer  
 * 50 µL * 6 = 300 µL DNA Binding Buffer
 * spin at 4000 x g for 3 min (800 µL column capacity)
@@ -263,6 +264,7 @@ plate read||
 * using DNA Clean & Concentrator™-5 columns (Zymo Research)  
     * https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
   
+Protocol  
 1. add 6X DNA Binding Buffer
 * 50 µL * 6 = 300 µL DNA Binding Buffer
 * spin at 4000 x g for 3 min
