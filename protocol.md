@@ -12,7 +12,8 @@ Use the below protocol or your favorite other method for construction of a ddRAD
 Use the below protocol or your favorite other method that yields whole-genome libraries with indexed Illumina adapters.  
 
 ### Biotin Nick Labeling  
-using invitrogen BioNick Labeling System
+using BioNick™ DNA Labeling System (Thermo Fisher Scientific)  
+    * https://www.thermofisher.com/order/catalog/product/18247015
 
 Labeling Recipe  
 
@@ -32,8 +33,9 @@ TOTAL |	50 µL
 * clean reactions with columns or magnetic beads  
 
 #### Zymo DNA clean and concentrate  
-using Zymo -5 columns  
-  
+using DNA Clean & Concentrator™-5 columns (Zymo Research)  
+* https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
+
 1. add 6X DNA Binding Buffer  
 * 50 µL * 6 = 300 µL DNA Binding Buffer
 * spin at 4000 x g for 3 min (800 µL column capacity)
@@ -77,7 +79,8 @@ Add as many probes as you can given the amount of probes that you have, the numb
 * 10 mM Tris-HCl, pH 7.5  
 * 1 mM EDTA  
 * 10 mM Tris-HCl, 0.1 mM EDTA, pH 8.0
-* Dynabeads MyOne Streptavidin C1 beads
+* Dynabeads® MyOne™ Streptavidin C1 beads (Thermo Fisher Scientific)
+  * https://www.thermofisher.com/order/catalog/product/65001
 
 #### Notes
 * Ensure that the combination of tubes and thermal cycler allows no more than 15% volume evaporation over the hybridization period at hybridization temperature.  
@@ -225,7 +228,8 @@ TOTAL	| 50 mL
 * resuspend in 30 µL 10 mM Tris-HCl, 0.05% TWEEN (pH 8-8.5), pipette up and down to resuspend
 
 ### KAPA HiFi polymersae amplification
-* using KAPA HiFi Real-Time PCR Library Amplification Kit  
+* using HiFi Real-Time PCR Library Amplification Kit (Kapa Biosystems)  
+    * https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/library-amplification/
 
 KAPA real time PCR reaction mix  
 
@@ -256,8 +260,9 @@ plate read||
 * purify it with Zymo Clean & Concentrator or AMPure beads (at 1.2X beads: DNA solution)
 
 ###### Zymo DNA clean and concentrate
-using Zymo -5 columns  
-  
+using DNA Clean & Concentrator™-5 columns (Zymo Research)  
+* https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
+
 1. add 6X DNA Binding Buffer
 * 50 µL * 6 = 300 µL DNA Binding Buffer
 * spin at 4000 x g for 3 min
