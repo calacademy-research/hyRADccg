@@ -2,7 +2,7 @@
 
 This is a modified version of the protocol for hybridization capture using restriction site associated DNA (RAD) markers to create probes (hyRAD) originally described in Suchan et al. (2016) and the wetlab protocol for which is available at (https://github.com/TomaszSuchan/hyRAD)  
   
-### Contents
+## Contents
 #### protocol.md
 This is the wetlab protocol written for use at the bench.  
 #### reagent-calc.md
