@@ -179,7 +179,7 @@ TOTAL |	50 µL
 
 Step |	Temperature (°C) |	Time
 ---- | ---- | ----
-1	| 37	| 30 min
+1	| 37	| 3 hours
 2	| 65	| 20 min
 3	| 8	| hold
 
@@ -203,7 +203,8 @@ Perform standard 1.5X AmPure bead clean-up using the following protocol:
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
 
-Quantify products using Qubit dsDNA High Sensitivity kit
+* Quantify products using Qubit dsDNA High Sensitivity kit
+* Run 1 µL of this product on Bioanalyzer using the High Sensitivity DNA kit
 
 ### Biotin Nick Labeling  
 * using BioNick™ DNA Labeling System (Thermo Fisher Scientific)  
@@ -241,14 +242,17 @@ Protocol
 * add 200 µL Wash Buffer
 * spin at 10,000 x g for 1 min 30 sec
 * transfer column to new tube
-* add 55 µL kit Resuspension Buffer (10 mM Tris-HCl + 0.1% TWEEN, pH 8.5) (pre-heated to 65°C)  
+* add 32 µL kit Resuspension Buffer (10 mM Tris-HCl + 0.1% TWEEN, pH 8.5) (pre-heated to 65°C)  
     * Could also elute with preheated 1X TE 10:1 buffer (10 mM Tris-HCl (pH 7.5), 1 mM EDTA)
     * or 1X TE 10:0.1 buffer (10 mM Tris-HCl (pH 7.5), 0.1 mM EDTA)
 * incubate at room temp 2 min.
 * spin at 10,000 x g for 1 min
-* final eluted volume is ~53 µL
+* final eluted volume is ~30 µL
 * keep cleaned product on ice
   * probes can be stored at -20°C in TE buffer for at least one year
+  
+* Quantify probe products using Qubit dsDNA High Sensitivity kit
+* Run 1 µL of this product on Bioanalyzer using the High Sensitivity DNA kit
 
 #### Measure probe solution to get concentration with Qubit
 
@@ -258,6 +262,60 @@ Add as many probes as you can given the amount of probes that you have, the numb
 
 ### Whole-genome library construction (for captures)
 Use the below protocol or your favorite other method that yields whole-genome libraries with indexed Illumina adapters.  
+
+* using KAPA Hyper Prep kit
+	* https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/dna-library-preparation/kapa-hyper-prep-kits/
+	
+Covaris shearing (for modern samples only)
+* For each sample, prepare a 130 ul aliquot of DNA at concentration 7.7 ng/ul in 10 mM Tris-HCl (pH 8)
+* Transfer sample to a Covaris microTUBE (AFA Fiber Snap-Cap)
+* Use the following shear settings:
+
+Peak Incident Power | 50
+Duty Factor | 20%
+Cycles per Burst | 200
+Treatment Time | 200 sec
+Temperature | 20°C
+
+These settings produce sheared product in the range of 100 - 400 bps
+* Run 20 ul of sheared product on a standard 1.5% agarose gel along with a 100 bp ladder to confirm size of sheared product
+
+KAPA End Repair and A-tailing
+* In a standard PCR strip tube, assemble the following per sample:
+
+Reagent	| x1  
+----- | -----   
+Sheared DNA | 50 ul
+End Repair and A-tail buffer | 7 µL 
+End Repair and A-tail enzyme mix	|  3 µL 
+TOTAL |	60 µL  
+
+* Pipette mix 5X
+* Quick spin
+* Place in thermal cycler and run the following program:
+
+Step |	Temp (°C) |	Time
+---- | ---- | ----
+(1)	| 20	| 30 min
+(2)	| 65 |	30 min
+(3)	| 8	| hold
+
+* To each End Repaired and A-tailed reaction, add the following:
+
+Reagent	| x1  
+----- | -----  
+End Repaired & A-tailed product | 60 µL  
+H20 | 5 µL  
+Ligation Buffer | 30 µL
+15 uM TruSeq indexed adapter | 5 µL 
+DNA Ligase*	|  10 µL 
+TOTAL |	110 µL  
+
+* Pipette mix 5X
+* Quick spin
+* For modern samples, incubate the reaction at 20°C for 15 min
+* For ancient samples, incubate the reactions at 20°C for 4 hours
+
 
 ### Hybridization
 
