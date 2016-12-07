@@ -160,13 +160,12 @@ Protocol
 
 ###Deadapterization
 
-Calculate out how many ngs of product you have
-Prepare as many deadapterization rxns that your product will allow for using the below recipe
-
+* Calculate out how many ngs of product you have
+* Prepare as many deadapterization rxns that your product will allow for using the below recipe
 
 Reagent	| x1  
 ----- | -----  
-H20 | var µL  
+H20 | var µL
 10X NEB Cutsmart buffer | 5 µL 
 MluCI (10000 U/ml)	|  3.30 µL
 SphI (20000 U/ml)| 1.70 µL  
