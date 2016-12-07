@@ -27,6 +27,28 @@ TOTAL |	50 µL
 * Using a thermal cycler, incubate the reaction at 37°C for 3 hours
 * Clean digested product using a Zymo DNA Clean & Concentrator™-5 column
 
+#### Zymo DNA clean and concentrate  
+* using DNA Clean & Concentrator™-5 columns (Zymo Research)  
+    * https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
+  
+Protocol  
+  
+1. add 5X DNA Binding Buffer  
+* 50 µL * 5 = 250 µL DNA Binding Buffer
+* spin at 4000 x g for 3 min
+* spin at 10,000 x g for 30 sec
+* add 200 µL Wash Buffer
+* spin at 10,000 x g for 1 min
+* add 200 µL Wash Buffer
+* spin at 10,000 x g for 1 min 30 sec
+* transfer column to new tube
+* add 30 µL 10 mM Tris-HCl (pH 8)(pre-heated to 65°C)  
+* incubate at room temp 2 min.
+* spin at 10,000 x g for 1 min
+
+* Quantify products using Qubit dsDNA High Sensitivity kit
+
+
 ### Whole-genome library construction (for captures)
 Use the below protocol or your favorite other method that yields whole-genome libraries with indexed Illumina adapters.  
 
