@@ -176,11 +176,12 @@ TOTAL |	50 µL
 * Quick spin
 
 * Place in thermal cycler and run the following program:
-Step |	Temp (°C) |	Time
+
+Step |	Temperature (°C) |	Time
 ---- | ---- | ----
-(1)	| 37	| 3 hours
-(2)	| 65 |	20 min
-(3)	| 8	| hold
+1	| 37	| 30 min
+2	| 65	| 20 min
+3	| 8	| hold
 
 Perform standard 1.5X AmPure bead clean-up using the following protocol:
 * bring AmPure beads to room temperature
