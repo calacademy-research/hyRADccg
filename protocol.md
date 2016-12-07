@@ -62,8 +62,8 @@ Reagent	| x1
 T4 Ligase | 2 µL
 TOTAL |	40 µL  
 
-Pipette mix 5X
-Place rxn in thermal cycler and run the following program:
+* Pipette mix 5X
+* Place rxn in thermal cycler and run the following program:
 
 Step |	Temperature (°C) |	Time
 ---- | ---- | ----
@@ -73,7 +73,7 @@ Step |	Temperature (°C) |	Time
 4	| 20	| hold
 
 Perform standard 1.6X AmPure bead clean-up using the following protocol:
-* bring AmPure beads to room temperature
+1. bring AmPure beads to room temperature
 * mix beads well
 * add 64 µL of beads to ligation rxn
 * pipette mix 10X
@@ -96,6 +96,37 @@ Perform tight 325 bp target size selection using Blue Pippin 2% gel with marker 
 
 Proceed immediately to RT-PCR
 
+Proceed immediately to RT-PCR
+
+### KAPA HiFi polymerase amplification
+* using HiFi Real-Time PCR Library Amplification Kit (Kapa Biosystems)  
+    * https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/library-amplification/
+
+KAPA real time PCR reaction mix  
+
+Reagent	| x1
+---- | ----
+size selected Pippin product |	20 µL
+H2O |	3 µL
+KAPA HiFi HotStart Real-time PCR Master Mix (2X) |	25 µL
+25 uM PCR1 primer |	1 µL
+25 uM PCR2 indexed primer |	1 µL
+TOTAL |	50 µL
+
+### RT-PCR Reaction Conditions
+
+Step |	Temp (°C) |	Time
+---- | ---- | ----
+(1)	| 98	| 45sec
+(2)	| 98 |	15sec
+(3)	| 65	| 30sec
+(4)	| 72 |	30sec
+plate read||
+(5) |	72 |	10sec
+(6)	| Go to (2)
+
+* Run the PCR as many cycles as it takes for amplification to max out (plateau)
+* Once the amplification graph shows RFU plateau, wait until step (5) to pause or cancel the run at 70°C and remove samples
 
 ### Whole-genome library construction (for captures)
 Use the below protocol or your favorite other method that yields whole-genome libraries with indexed Illumina adapters.  
