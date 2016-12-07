@@ -73,7 +73,7 @@ Step |	Temperature (°C) |	Time
 4	| 20	| hold
 
 Perform standard 1.6X AmPure bead clean-up using the following protocol:
-1. bring AmPure beads to room temperature
+* bring AmPure beads to room temperature
 * mix beads well
 * add 64 µL of beads to ligation rxn
 * pipette mix 10X
