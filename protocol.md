@@ -362,12 +362,12 @@ Step |	Temp (°C) |	Time
 (4)	| 72 |	30sec
 plate read||
 (5) |	72 |	10sec
-(6)	| Go to (2) 44X |	 
+(6)	| Go to (2) 44X	 
 (7) |	72 |	1min
 
-Run the PCR as many cycles as it takes for amplification to reach between 3500 - 4000 RFU. This should take only ~ 5 cycles.
-Once the desired amplification level is met, wait until step (5) to pause or cancel the run at 70°C and remove samples
-Combine the sample replicates together and proceed to bead clean-up
+* Run the PCR as many cycles as it takes for amplification to reach between 3500 - 4000 RFU. This should take only ~ 5 cycles.
+* Once the desired amplification level is met, wait until step (5) to pause or cancel the run at 70°C and remove samples
+* Combine the sample replicates together and proceed to bead clean-up
 
 Perform standard 1.0X AmPure bead clean-up using the following protocol:
 * bring AmPure beads to room temperature
