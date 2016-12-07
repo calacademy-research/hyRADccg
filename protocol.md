@@ -271,6 +271,9 @@ Covaris shearing (for modern samples only)
 * Transfer sample to a Covaris microTUBE (AFA Fiber Snap-Cap)
 * Use the following shear settings:
 
+
+Setting	| value  
+----- | ----- 
 Peak Incident Power | 50
 Duty Factor | 20%
 Cycles per Burst | 200
