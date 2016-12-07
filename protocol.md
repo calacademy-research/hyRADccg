@@ -8,7 +8,7 @@
 ### ddRAD library construction (for use in making probes)
 Use the below protocol or your favorite other method for construction of a ddRAD library.  
 
-Double Digest
+### Double Digest
 * Quantify extracted DNA using Qubit dsDNA High Sensitivity kit
 
 * Prepare a 40 µl aliquot of DNA at concentration 12.5 ng/µl
@@ -49,7 +49,7 @@ Protocol
 
 * Quantify products using Qubit dsDNA High Sensitivity kit
 
-Ligation
+### Ligation
 In a PCR tube, prepare a 30 ul aliquot of digested DNA at concentration 4 ng/ul using sterile H20
 
 To this aliquot, add the following reagents:
@@ -63,13 +63,7 @@ T4 Ligase | 2 µL
 TOTAL |	40 µL  
 
 Pipette mix 5X
-
-Run the following Rad Adapter Ligation program on a thermal cycler:
-Step 1: 37°C for 30 min
-Step 2: 65°C for 10 min
-Step 3: 65°C for 1.5 min, decrease -2°C every cycle for 23 cycles
-Step 4: hold at 20°C
-
+Place rxn in thermal cycler and run the following program:
 
 Step |	Temperature (°C) |	Time
 ---- | ---- | ----
