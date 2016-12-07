@@ -8,7 +8,7 @@
 ### ddRAD library construction (for use in making probes)
 Use the below protocol or your favorite other method for construction of a ddRAD library.  
 
-#### Double Digest
+Double Digest
 * Quantify extracted DNA using Qubit dsDNA High Sensitivity kit
 
 * Prepare a 40 µl aliquot of DNA at concentration 12.5 ng/µl
@@ -48,6 +48,51 @@ Protocol
 * spin at 10,000 x g for 1 min
 
 * Quantify products using Qubit dsDNA High Sensitivity kit
+
+Ligation
+In a PCR tube, prepare a 30 ul aliquot of digested DNA at concentration 4 ng/ul using sterile H20
+
+To this aliquot, add the following reagents:
+
+Reagent	| x1  
+----- | -----   
+10X NEB T4 DNA Ligase buffer | 4 µL 
+10 uM PI adapter	|  2 µL
+10 uM P2 adapter | 2 µL  
+T4 Ligase | 2 µL
+TOTAL |	40 µL  
+
+Pipette mix 5X
+
+Run the following Rad Adapter Ligation program on a thermal cycler:
+Step 1: 37°C for 30 min
+Step 2: 65°C for 10 min
+Step 3: 65°C for 1.5 min, decrease -2°C every cycle for 23 cycles
+Step 4: hold at 20°C
+
+Perform standard 1.6X AmPure bead clean-up using the following protocol:
+* bring AmPure beads to room temperature
+* mix beads well
+* add 64 µL of beads to ligation rxn
+* pipette mix 10X
+* incubate at room temp for 10 min
+* place rxn on magnetic plate for 2 min
+* aspirate cleared solution from rxn and discard
+* dispense 200 µL of 80% ethanol to sample
+* wait 10 sec
+* aspirate out the ethanol and discard
+* repeat ethanol wash for a total of two washes
+* ensure all ethanol is removed from sample
+* place sample on magnetic rack in the fume hood to dry for 8 min
+* remove sample from magnetic plate
+* resuspend beads in 30 ul of 10 mM Tris-HCl (pH 8)
+* pipette mix 10X
+* place sample on magnetic plate for 2 min
+* aspirate eluted DNA and transfer to 0.5 ml non-stick tube
+
+Perform tight 325 bp target size selection using Blue Pippin 2% gel with marker V1
+
+Proceed immediately to RT-PCR
 
 
 ### Whole-genome library construction (for captures)
