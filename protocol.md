@@ -129,9 +129,10 @@ plate read||
 
 * Run the PCR as many cycles as it takes for amplification to max out (plateau)
 * Once the amplification graph shows RFU plateau, wait until step (5) to pause or cancel the run at 70°C and remove samples
-* Clean PCR product using the Zymoclean Gel DNA Recovery kit
+* Clean PCR product using gel excision with the Zymoclean Gel DNA Recovery kit
 
-#### Zymoclean DNA Recovery kit  
+#### Gel excision with Zymoclean DNA Recovery kit  
+* using Zymoclean DNA Recovery kit
     * https://www.zymoresearch.com/dna/dna-clean-up/gel-dna-recovery/zymoclean-gel-dna-recovery-kit
   
 Protocol  
