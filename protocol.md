@@ -70,6 +70,14 @@ Step 2: 65°C for 10 min
 Step 3: 65°C for 1.5 min, decrease -2°C every cycle for 23 cycles
 Step 4: hold at 20°C
 
+
+Step |	Temperature (°C) |	Time
+---- | ---- | ----
+1	| 37	| 30 min
+2	| 65	| 10 min
+3	| 65	| 1.5 min, decrease -2°C every cycle for 23 cycles
+4	| 20	| hold
+
 Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * bring AmPure beads to room temperature
 * mix beads well
