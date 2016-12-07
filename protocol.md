@@ -158,8 +158,52 @@ Protocol
 * Run 1 µL of this diluted product on Bioanalyzer using the High Sensitivity DNA kit
 * Set aside at least 5 µL of RAD library and store at -20°C (excess product that is set aside at this step may be used to generate more probes via PCR if needed in the future)
 
-### Whole-genome library construction (for captures)
-Use the below protocol or your favorite other method that yields whole-genome libraries with indexed Illumina adapters.  
+###Deadapterization
+
+Calculate out how many ngs of product you have
+Prepare as many deadapterization rxns that your product will allow for using the below recipe
+
+
+Reagent	| x1  
+----- | -----  
+H20 | var µL  
+10X NEB Cutsmart buffer | 5 µL 
+MluCI (10000 U/ml)	|  3.30 µL
+SphI (20000 U/ml)| 1.70 µL  
+DNA | up to 1 µg 
+TOTAL |	50 µL  
+
+* Pipette mix 5X
+* Quick spin
+
+* Place in thermal cycler and run the following program:
+Step |	Temp (°C) |	Time
+---- | ---- | ----
+(1)	| 37	| 3 hours
+(2)	| 65 |	20 min
+(3)	| 8	| hold
+
+Perform standard 1.5X AmPure bead clean-up using the following protocol:
+* bring AmPure beads to room temperature
+* mix beads well
+* add 64 µL of beads to ligation rxn
+* pipette mix 10X
+* incubate at room temp for 10 min
+* place rxn on magnetic plate for 2 min
+* aspirate cleared solution from rxn and discard
+* dispense 200 µL of 80% ethanol to sample
+* wait 10 sec
+* aspirate out the ethanol and discard
+* repeat ethanol wash for a total of two washes
+* ensure all ethanol is removed from sample
+* place sample on magnetic rack in the fume hood to dry for 8 min
+* remove sample from magnetic plate
+* resuspend beads in 30 ul of 10 mM Tris-HCl (pH 8)
+* pipette mix 10X
+* place sample on magnetic plate for 2 min
+* aspirate eluted DNA and transfer to 0.5 ml non-stick tube
+
+Quantify products using Qubit dsDNA High Sensitivity kit
 
 ### Biotin Nick Labeling  
 * using BioNick™ DNA Labeling System (Thermo Fisher Scientific)  
@@ -211,6 +255,9 @@ Protocol
 X µL of probes at Qubit concentration (ng/µL) = Z ng probes
 
 Add as many probes as you can given the amount of probes that you have, the number of hybridizations you want to do, and the amount of library that you have. We added 5-10 ng of probes to each hybridization.  
+
+### Whole-genome library construction (for captures)
+Use the below protocol or your favorite other method that yields whole-genome libraries with indexed Illumina adapters.  
 
 ### Hybridization
 
