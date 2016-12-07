@@ -28,9 +28,9 @@ TOTAL |	50 µL
 1. mix well  
 * centrifuge briefly (15,000 x g for 5 sec)  
 * ensure heated lid is 10°C over incubation temperature  
-* incubate at 16°C for 2 hours. We use 2 hours since we want a smaller size range of probe.  
-* add 5 µL Stop Buffer  
-* clean reactions with columns or magnetic beads  
+* incubate at 16°C for 1.5 hours 
+* add 10 µL Stop Buffer  
+* clean reactions using Zymo Clean & Concentrator protocol below
 
 #### Zymo DNA clean and concentrate  
 * using DNA Clean & Concentrator™-5 columns (Zymo Research)  
@@ -38,8 +38,8 @@ TOTAL |	50 µL
   
 Protocol  
   
-1. add 6X DNA Binding Buffer  
-* 50 µL * 6 = 300 µL DNA Binding Buffer
+1. add 5X DNA Binding Buffer  
+* 50 µL * 5 = 250 µL DNA Binding Buffer
 * spin at 4000 x g for 3 min (800 µL column capacity)
 * spin at 10,000 x g for 30 sec
 * add 200 µL Wash Buffer
@@ -86,7 +86,7 @@ Add as many probes as you can given the amount of probes that you have, the numb
 
 #### Notes
 * Ensure that the combination of tubes and thermal cycler allows no more than 15% volume evaporation over the hybridization period at hybridization temperature.  
-* hybridize in 0.2 mL low-bind tubes (Axygen MAXYmum Recovery tubes recommended)  
+* hybridize in 1.5 ml screw-cap tube with o-ring 
 
 #### Hybridization Mix Recipe  
 * This includes comparison with the final concentration of the reagents in the original hyRAD protocol and in the MyBaits protocol.  
@@ -285,4 +285,4 @@ Protocol
 
 
 ### References
-Peterson (2012)
+Peterson BK, Weber JN, Kay EH, Fisher HS, Hoekstra HE (2012) Double digest RADseq: an inexpensive method for de novo SNP discovery and genotyping in model and non-model species. PLoS ONE, 7, e37135.
