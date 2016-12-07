@@ -50,7 +50,7 @@ Protocol
 * Quantify products using Qubit dsDNA High Sensitivity kit
 
 ### Ligation
-In a PCR tube, prepare a 30 ul aliquot of digested DNA at concentration 4 ng/ul using sterile H20
+In a PCR tube, prepare a 30 ul aliquot of digested DNA at concentration 4 ng/µl using sterile H20
 
 To this aliquot, add the following reagents:
 
@@ -88,7 +88,7 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * ensure all ethanol is removed from sample
 * place sample on magnetic rack in the fume hood to dry for 8 min
 * remove sample from magnetic plate
-* resuspend beads in 30 ul of 10 mM Tris-HCl (pH 8)
+* resuspend beads in 30 µl of 10 mM Tris-HCl (pH 8)
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
@@ -198,7 +198,7 @@ Perform standard 1.5X AmPure bead clean-up using the following protocol:
 * ensure all ethanol is removed from sample
 * place sample on magnetic rack in the fume hood to dry for 8 min
 * remove sample from magnetic plate
-* resuspend beads in 30 ul of 10 mM Tris-HCl (pH 8)
+* resuspend beads in 30 µl of 10 mM Tris-HCl (pH 8)
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
@@ -267,7 +267,7 @@ Use the below protocol or your favorite other method that yields whole-genome li
 	* https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/dna-library-preparation/kapa-hyper-prep-kits/
 	
 Covaris shearing (for modern samples only)
-* For each sample, prepare a 130 ul aliquot of DNA at concentration 7.7 ng/ul in 10 mM Tris-HCl (pH 8)
+* For each sample, prepare a 130 µl aliquot of DNA at concentration 7.7 ng/µl in 10 mM Tris-HCl (pH 8)
 * Transfer sample to a Covaris microTUBE (AFA Fiber Snap-Cap)
 * Use the following shear settings:
 
@@ -288,7 +288,7 @@ KAPA End Repair and A-tailing
 
 Reagent	| x1  
 ----- | -----   
-Sheared DNA | 50 ul
+Sheared DNA | 50 µl
 End Repair and A-tail buffer | 7 µL 
 End Repair and A-tail enzyme mix	|  3 µL 
 TOTAL |	60 µL  
@@ -334,7 +334,7 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * ensure all ethanol is removed from sample
 * place sample on magnetic rack in the fume hood to dry for 8 min
 * remove sample from magnetic plate
-* resuspend beads in 40 ul of 10 mM Tris-HCl (pH 7.5)
+* resuspend beads in 40 µl of 10 mM Tris-HCl (pH 7.5)
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
@@ -384,7 +384,7 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 * ensure all ethanol is removed from sample
 * place sample on magnetic rack in the fume hood to dry for 8 min
 * remove sample from magnetic plate
-* resuspend beads in 40 ul of 10 mM Tris-HCl (pH 8)
+* resuspend beads in 40 µl of 10 mM Tris-HCl (pH 8)
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
