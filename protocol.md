@@ -8,6 +8,7 @@
 ### ddRAD library construction (for use in making probes)
 Use the below protocol or your favorite other method for construction of a ddRAD library.  
 
+#### Double Digest
 * Quantify extracted DNA using Qubit dsDNA High Sensitivity kit
 
 * Prepare a 40 µl aliquot of DNA at concentration 12.5 ng/µl
@@ -42,8 +43,8 @@ Protocol
 * add 200 µL Wash Buffer
 * spin at 10,000 x g for 1 min 30 sec
 * transfer column to new tube
-* add 30 µL 10 mM Tris-HCl (pH 8)(pre-heated to 65°C)  
-* incubate at room temp 2 min.
+* add 30 µL 10 mM Tris-HCl (pH 8) (pre-heated to 65°C)  
+* incubate at room temp 2 min
 * spin at 10,000 x g for 1 min
 
 * Quantify products using Qubit dsDNA High Sensitivity kit
