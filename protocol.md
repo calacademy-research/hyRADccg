@@ -72,6 +72,7 @@ Step |	Temperature (°C) |	Time
 3	| 65	| 1.5 min, decrease -2°C every cycle for 23 cycles
 4	| 20	| hold
 
+
 Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * bring AmPure beads to room temperature
 * mix beads well
@@ -92,11 +93,12 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
 
+### Size Selection
+
 Perform tight 325 bp target size selection using Blue Pippin 2% gel with marker V1
 
 Proceed immediately to RT-PCR
 
-Proceed immediately to RT-PCR
 
 ### KAPA HiFi polymerase amplification
 * using HiFi Real-Time PCR Library Amplification Kit (Kapa Biosystems)  
