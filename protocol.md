@@ -115,7 +115,7 @@ KAPA HiFi HotStart Real-time PCR Master Mix (2X) |	25 µL
 25 uM PCR2 indexed primer |	1 µL
 TOTAL |	50 µL
 
-### RT-PCR Reaction Conditions
+#### RT-PCR Reaction Conditions
 
 Step |	Temp (°C) |	Time
 ---- | ---- | ----
@@ -310,8 +310,8 @@ Reagent	| x1
 End Repaired & A-tailed product | 60 µL  
 H20 | 5 µL  
 Ligation Buffer | 30 µL
-15 uM TruSeq indexed adapter | 5 µL 
-DNA Ligase*	|  10 µL 
+15 uM TruSeq indexed adapter* | 5 µL 
+DNA Ligase	|  10 µL 
 TOTAL |	110 µL  
 
 * Pipette mix 5X
@@ -351,6 +351,56 @@ KAPA Hyper DNA library product |	20 µL
 KAPA HiFi HotStart Real-time PCR Master Mix (2X) |	25 µL
 KAPA Illumina Library Amplification Primer Mix (10X) |	5 µL
 TOTAL |	50 µL
+
+#### RT-PCR Reaction Conditions
+
+Step |	Temp (°C) |	Time
+---- | ---- | ----
+(1)	| 98	| 45sec
+(2)	| 98 |	15sec
+(3)	| 60	| 30sec
+(4)	| 72 |	30sec
+plate read||
+(5) |	72 |	10sec
+(6)	| Go to (2) 44X |	 
+(7) |	72 |	1min
+
+Run the PCR as many cycles as it takes for amplification to reach between 3500 - 4000 RFU. This should take only ~ 5 cycles.
+Once the desired amplification level is met, wait until step (5) to pause or cancel the run at 70°C and remove samples
+Combine the sample replicates together and proceed to bead clean-up
+
+Perform standard 1.0X AmPure bead clean-up using the following protocol:
+* bring AmPure beads to room temperature
+* mix beads well
+* add 64 µL of beads to ligation rxn
+* pipette mix 10X
+* incubate at room temp for 10 min
+* place rxn on magnetic plate for 2 min
+* aspirate cleared solution from rxn and discard
+* dispense 200 µL of 80% ethanol to sample
+* wait 10 sec
+* aspirate out the ethanol and discard
+* repeat ethanol wash for a total of two washes
+* ensure all ethanol is removed from sample
+* place sample on magnetic rack in the fume hood to dry for 8 min
+* remove sample from magnetic plate
+* resuspend beads in 40 ul of 10 mM Tris-HCl (pH 8)
+* pipette mix 10X
+* place sample on magnetic plate for 2 min
+* aspirate eluted DNA and transfer to 0.5 ml non-stick tube
+
+* Quantify products using Qubit dsDNA High Sensitivity kit
+* Make a 1:5 dilution of each library in sterile H20
+* Run 1 µL of diluted products on Bioanalyzer using the High Sensitivity DNA kit
+
+* For single sample captures, use between 100 - 150 ng of each library
+* For pooled sample captures, do the following:
+
+* Make an 18 ul working aliquot of each sample at 8.2 ng/ul in 10 mM Tris-HCl (pH 8)
+* Pool each of the 18 ul aliquots together
+* Pipette mix 10X
+* Use a speed vac to dry down the pooled sample to ~ 6 ul volume
+* Use this pooled, concentrated sample for hybridization
 
 ### Hybridization
 
