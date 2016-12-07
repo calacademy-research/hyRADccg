@@ -8,6 +8,25 @@
 ### ddRAD library construction (for use in making probes)
 Use the below protocol or your favorite other method for construction of a ddRAD library.  
 
+* Quantify extracted DNA using Qubit dsDNA High Sensitivity kit
+
+* Prepare a 40 µl aliquot of DNA at concentration 12.5 ng/µl
+
+* To this aliquot, add the following reagents:
+
+Reagent	| x1  
+----- | -----  
+H20 | 2 µL  
+10X NEB Cutsmart buffer | 5 µL 
+MluCI (10000 U/ml)	|  2 µL
+SphI (20000 U/ml)| 1 µL  
+TOTAL |	50 µL  
+
+* Pipette mix 5X
+
+* Using a thermal cycler, incubate the reaction at 37°C for 3 hours
+* Clean digested product using a Zymo DNA Clean & Concentrator™-5 column
+
 ### Whole-genome library construction (for captures)
 Use the below protocol or your favorite other method that yields whole-genome libraries with indexed Illumina adapters.  
 
