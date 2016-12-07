@@ -137,20 +137,26 @@ plate read||
   
 Protocol  
   
-1. add 5X DNA Binding Buffer  
-* 50 µL * 5 = 250 µL DNA Binding Buffer
-* spin at 4000 x g for 3 min
+1. Run PCR product out on a 1% low melt agarose gel along with a 100 bp ladder
+* Excise the PCR band using a sterile razor and place the gel slice in a 1.5 ml non-stick tube
+* add 3 volumes of Buffer ADB to the tube
+* incubate the tube at 50°C for 10 min to dissolve the gel slice
+* transfer the melted gel sample to a Zymoclean DNA Recovery column
+* spin at 10,000 x g for 30 sec
+* discard the flow-through
+* add 200 µL Wash Buffer
 * spin at 10,000 x g for 30 sec
 * add 200 µL Wash Buffer
-* spin at 10,000 x g for 1 min
-* add 200 µL Wash Buffer
-* spin at 10,000 x g for 1 min 30 sec
+* spin at 13,000 x g for 1 min 30 sec
 * transfer column to new tube
 * add 30 µL 10 mM Tris-HCl (pH 8) (pre-heated to 65°C)  
-* incubate at room temp 2 min
+* incubate at room temp 3 min
 * spin at 10,000 x g for 1 min
 
 * Quantify products using Qubit dsDNA High Sensitivity kit
+* Make a 1:20 dilution of RAD library in sterile H20
+* Run 1 µL of this diluted product on Bioanalyzer using the High Sensitivity DNA kit
+* Set aside at least 5 µL of RAD library and store at -20°C (excess product that is set aside at this step may be used to generate more probes via PCR if needed in the future)
 
 ### Whole-genome library construction (for captures)
 Use the below protocol or your favorite other method that yields whole-genome libraries with indexed Illumina adapters.  
