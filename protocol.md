@@ -82,7 +82,7 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * pipette mix 10X
 * incubate at room temp for 10 min
 * place rxn on magnetic plate for 2 min
-* aspirate cleared solution from rxn and discard
+* aspirate cleared solution and discard
 * dispense 200 µL of 80% ethanol to sample
 * wait 10 sec
 * aspirate out the ethanol and discard
