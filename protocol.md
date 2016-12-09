@@ -36,7 +36,7 @@ Protocol
   
 1. Transfer digested sample to 1.5 ml non-stick tube
 * add 5X DNA Binding Buffer (50 µL * 5 = 250 µL DNA Binding Buffer)
-* Pipette mix 5X and transfer sample to Zymo Clean & Concentrator column
+* pipette mix 5X and transfer sample to Zymo Clean & Concentrator column
 * spin at 4000 x g for 3 min
 * spin at 10,000 x g for 30 sec
 * discard flow-through
@@ -238,19 +238,18 @@ TOTAL |	50 µL
     * https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
   
 Protocol  
-  
-1. add 5X DNA Binding Buffer  
-* 50 µL * 5 = 250 µL DNA Binding Buffer
+   
+1. Transfer digested sample to 1.5 ml non-stick tube
+2. add 5X DNA Binding Buffer (50 µL * 5 = 250 µL DNA Binding Buffer)
 * spin at 4000 x g for 3 min
 * spin at 10,000 x g for 30 sec
+* discard flow-through
 * add 200 µL Wash Buffer
 * spin at 10,000 x g for 1 min
 * add 200 µL Wash Buffer
 * spin at 10,000 x g for 1 min 30 sec
 * transfer column to new tube
-* add 32 µL kit Resuspension Buffer (10 mM Tris-HCl + 0.1% TWEEN, pH 8.5) (pre-heated to 65°C)  
-    * Could also elute with preheated 1X TE 10:1 buffer (10 mM Tris-HCl (pH 7.5), 1 mM EDTA)
-    * or 1X TE 10:0.1 buffer (10 mM Tris-HCl (pH 7.5), 0.1 mM EDTA)
+* add 32 µL kit Resuspension Buffer (10 mM Tris-HCl, pH 8) (pre-heated to 65°C)  
 * incubate at room temp 2 min.
 * spin at 10,000 x g for 1 min
 * final eluted volume is ~30 µL
@@ -328,19 +327,20 @@ TOTAL |	110 µL
 Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * bring AmPure beads to room temperature
 * mix beads well
-* add 64 µL of beads to ligation rxn
+* transfer sample to a 1.5 ml non-stick tube
+* add 176 µL of beads to ligation rxn
 * pipette mix 10X
 * incubate at room temp for 10 min
 * place rxn on magnetic plate for 2 min
-* aspirate cleared solution from rxn and discard
+* aspirate cleared solution and discard
 * dispense 200 µL of 80% ethanol to sample
 * wait 10 sec
 * aspirate out the ethanol and discard
 * repeat ethanol wash for a total of two washes
 * ensure all ethanol is removed from sample
-* place sample on magnetic rack in the fume hood to dry for 8 min
+* place sample (on magnetic rack) in the fume hood to dry for 8 min
 * remove sample from magnetic plate
-* resuspend beads in 40 µl of 10 mM Tris-HCl (pH 7.5)
+* resuspend beads in 40 µl of 10 mM Tris-HCl (pH 8)
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
@@ -350,10 +350,11 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
     * https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/library-amplification/
 
 KAPA real time PCR reaction mix  
+* Divide library product in half to allow for two PCR rxns per sample*
 
 Reagent	| x1
 ---- | ----
-KAPA Hyper DNA library product |	20 µL
+KAPA Hyper DNA library product* |	20 µL
 KAPA HiFi HotStart Real-time PCR Master Mix (2X) |	25 µL
 KAPA Illumina Library Amplification Primer Mix (10X) |	5 µL
 TOTAL |	50 µL
@@ -378,11 +379,11 @@ plate read||
 Perform standard 1.0X AmPure bead clean-up using the following protocol:
 * bring AmPure beads to room temperature
 * mix beads well
-* add 64 µL of beads to ligation rxn
+* add an equal amount of beads to PCR rxn
 * pipette mix 10X
 * incubate at room temp for 10 min
 * place rxn on magnetic plate for 2 min
-* aspirate cleared solution from rxn and discard
+* aspirate cleared solution and discard
 * dispense 200 µL of 80% ethanol to sample
 * wait 10 sec
 * aspirate out the ethanol and discard
@@ -390,6 +391,7 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 * ensure all ethanol is removed from sample
 * place sample on magnetic rack in the fume hood to dry for 8 min
 * remove sample from magnetic plate
+* check that all ethanol has evaporated from tubes
 * resuspend beads in 40 µl of 10 mM Tris-HCl (pH 8)
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
@@ -399,7 +401,7 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 * Make a 1:5 dilution of each library in sterile H20
 * Run 1 µL of diluted products on Bioanalyzer using the High Sensitivity DNA kit
 
-* For single sample captures, use between 100 - 150 ng of each library
+* For single sample captures, use between 100 - 150 ng of each library for hybridization
 * For pooled sample captures, do the following:
 
 * Make an 18 ul working aliquot of each sample at 8.2 ng/ul in 10 mM Tris-HCl (pH 8)
