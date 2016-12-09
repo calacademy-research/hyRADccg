@@ -34,23 +34,25 @@ TOTAL |	50 µL
   
 Protocol  
   
-1. add 5X DNA Binding Buffer  
-* 50 µL * 5 = 250 µL DNA Binding Buffer
+1. Transfer digested sample to 1.5 ml non-stick tube
+* add 5X DNA Binding Buffer (50 µL * 5 = 250 µL DNA Binding Buffer)
+* Pipette mix 5X and transfer sample to Zymo Clean & Concentrator column
 * spin at 4000 x g for 3 min
 * spin at 10,000 x g for 30 sec
+* discard flow-through
 * add 200 µL Wash Buffer
 * spin at 10,000 x g for 1 min
 * add 200 µL Wash Buffer
 * spin at 10,000 x g for 1 min 30 sec
 * transfer column to new tube
 * add 30 µL 10 mM Tris-HCl (pH 8) (pre-heated to 65°C)  
-* incubate at room temp 2 min
+* incubate at room temp 3 min
 * spin at 10,000 x g for 1 min
 
-* Quantify products using Qubit dsDNA High Sensitivity kit
+* Quantify cleaned products using Qubit dsDNA High Sensitivity kit
 
 ### Ligation
-In a PCR tube, prepare a 30 ul aliquot of digested DNA at concentration 4 ng/µl using sterile H20
+In a PCR tube, prepare a 30 µl aliquot of digested DNA at concentration 4 ng/µl using sterile H20
 
 To this aliquot, add the following reagents:
 
@@ -74,8 +76,8 @@ Step |	Temperature (°C) |	Time
 
 
 Perform standard 1.6X AmPure bead clean-up using the following protocol:
-1. bring AmPure beads to room temperature
-2. mix beads well
+* bring AmPure beads to room temperature
+* mix beads well
 * add 64 µL of beads to ligation rxn
 * pipette mix 10X
 * incubate at room temp for 10 min
@@ -86,7 +88,8 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * aspirate out the ethanol and discard
 * repeat ethanol wash for a total of two washes
 * ensure all ethanol is removed from sample
-* place sample on magnetic rack in the fume hood to dry for 8 min
+* place sample (on magnetic rack) in the fume hood to dry for 8 min
+* check that all ethanol has evaporated from the sample
 * remove sample from magnetic plate
 * resuspend beads in 30 µl of 10 mM Tris-HCl (pH 8)
 * pipette mix 10X
@@ -103,12 +106,15 @@ Proceed immediately to RT-PCR
 ### KAPA HiFi polymerase amplification
 * using HiFi Real-Time PCR Library Amplification Kit (Kapa Biosystems)  
     * https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/library-amplification/
+    
+* pipette measure exactly how much product was collected from the Pippin
+* divide this number in half and set up two PCR reactions per sample using the following recipe:
 
-KAPA real time PCR reaction mix  
+KAPA real time PCR reaction mix 
 
 Reagent	| x1
 ---- | ----
-size selected Pippin product |	20 µL
+size selected Pippin product* |	20 µL
 H2O |	3 µL
 KAPA HiFi HotStart Real-time PCR Master Mix (2X) |	25 µL
 25 uM PCR1 primer |	1 µL
@@ -128,7 +134,7 @@ plate read||
 (6)	| Go to (2)
 
 * Run the PCR as many cycles as it takes for amplification to max out (plateau)
-* Once the amplification graph shows RFU plateau, wait until step (5) to pause or cancel the run at 70°C and remove samples
+* Once the amplification graph shows RFU plateau, wait until step (5) to pause or cancel the run at 72°C and remove samples
 * Clean PCR product using gel excision with the Zymoclean Gel DNA Recovery kit
 
 #### Gel excision with Zymoclean DNA Recovery kit  
@@ -216,12 +222,12 @@ Reagent	| x1
 ----- | -----  
 10X dNTP Mix | 5 µL  
 DNA | up to 1 µg  
-H2O	|  
+H2O	|  var µL
 10X Enzyme Mix | 5 µL  
 TOTAL |	50 µL  
 
 1. mix well  
-* centrifuge briefly (15,000 x g for 5 sec)  
+* quick spin  
 * ensure heated lid is 10°C over incubation temperature  
 * incubate at 16°C for 1.5 hours 
 * add 10 µL Stop Buffer  
@@ -235,7 +241,7 @@ Protocol
   
 1. add 5X DNA Binding Buffer  
 * 50 µL * 5 = 250 µL DNA Binding Buffer
-* spin at 4000 x g for 3 min (800 µL column capacity)
+* spin at 4000 x g for 3 min
 * spin at 10,000 x g for 30 sec
 * add 200 µL Wash Buffer
 * spin at 10,000 x g for 1 min
