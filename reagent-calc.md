@@ -80,7 +80,7 @@ We could double or even multiply by 10 the amount of library and probes and be f
   * We were conservative and decided to add 0.1 nmole blocker / library
   * Your own calculations will change this number, but use this example as a model.
 
-###### How many magnetic beads are needed?
+#### Quantity of magnetic beads needed
 * ds DNA binding capacity of beads is 20 µg/mg
 * beads come at concentration of 10 mg/mL
     * 10 mg/mL = 10 mg / 1000 µL = 0.01 mg/µL
