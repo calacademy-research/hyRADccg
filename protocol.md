@@ -45,7 +45,7 @@ Protocol
 * add 200 µL Wash Buffer
 * spin at 10,000 x g for 1 min 30 sec
 * transfer column to new tube
-* add 30 µL 10 mM Tris-HCl (pH 8) (pre-heated to 65°C)  
+* add 35 µL 10 mM Tris-HCl, pH 8 (pre-heated to 65°C)  
 * incubate at room temp 3 min
 * spin at 10,000 x g for 1 min
 
@@ -91,14 +91,14 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * place sample (on magnetic rack) in the fume hood to dry for 8 min
 * check that all ethanol has evaporated from the sample
 * remove sample from magnetic plate
-* resuspend beads in 30 µl of 10 mM Tris-HCl (pH 8)
+* resuspend beads in 30 µl of 10 mM Tris-HCl, pH 8
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
 
 ### Size Selection
 
-Perform tight 325 bp target size selection using Blue Pippin 2% gel with marker V1
+Perform a tight 325 bp target size selection using Blue Pippin 2% gel with marker V1
 
 Proceed immediately to RT-PCR
 
@@ -110,7 +110,7 @@ Proceed immediately to RT-PCR
 * pipette measure exactly how much product was collected from the Pippin
 * divide this number in half and set up two PCR reactions per sample using the following recipe:
 
-KAPA real time PCR reaction mix 
+KAPA real time PCR reaction mix:
 
 Reagent	| x1
 ---- | ----
@@ -155,7 +155,7 @@ Protocol
 * add 200 µL Wash Buffer
 * spin at 13,000 x g for 1 min 30 sec
 * transfer column to new tube
-* add 30 µL 10 mM Tris-HCl (pH 8) (pre-heated to 65°C)  
+* add 30 µL 10 mM Tris-HCl, pH 8 (pre-heated to 65°C)  
 * incubate at room temp 3 min
 * spin at 10,000 x g for 1 min
 
@@ -167,7 +167,7 @@ Protocol
 ###Deadapterization
 
 * Calculate out how many ngs of product you have
-* Prepare as many deadapterization rxns that your product will allow for using the below recipe
+* Prepare as many deadapterization rxns that your product will allow for using the below recipe:
 
 Reagent	| x1  
 ----- | -----  
@@ -204,7 +204,7 @@ Perform standard 1.5X AmPure bead clean-up using the following protocol:
 * ensure all ethanol is removed from sample
 * place sample on magnetic rack in the fume hood to dry for 8 min
 * remove sample from magnetic plate
-* resuspend beads in 30 µl of 10 mM Tris-HCl (pH 8)
+* resuspend beads in 30 µl of 10 mM Tris-HCl, pH 8
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
@@ -216,7 +216,7 @@ Perform standard 1.5X AmPure bead clean-up using the following protocol:
 * using BioNick™ DNA Labeling System (Thermo Fisher Scientific)  
     * https://www.thermofisher.com/order/catalog/product/18247015
   
-Labeling Recipe  
+Labeling Recipe:
 
 Reagent	| x1  
 ----- | -----  
@@ -230,7 +230,7 @@ TOTAL |	50 µL
 * quick spin  
 * ensure heated lid is 10°C over incubation temperature  
 * incubate at 16°C for 1.5 hours 
-* add 10 µL Stop Buffer  
+* add 5 µL Stop Buffer  
 * clean reactions using Zymo Clean & Concentrator protocol below
 
 #### Zymo DNA clean and concentrate  
@@ -249,10 +249,9 @@ Protocol
 * add 200 µL Wash Buffer
 * spin at 10,000 x g for 1 min 30 sec
 * transfer column to new tube
-* add 32 µL kit Resuspension Buffer (10 mM Tris-HCl, pH 8) (pre-heated to 65°C)  
+* add 25 µL kit Resuspension Buffer (10 mM Tris-HCl, pH 8) (pre-heated to 65°C)  
 * incubate at room temp 2 min.
 * spin at 10,000 x g for 1 min
-* final eluted volume is ~30 µL
 * keep cleaned product on ice
   * probes can be stored at -20°C in TE buffer for at least one year
   
@@ -263,7 +262,7 @@ Protocol
 
 X µL of probes at Qubit concentration (ng/µL) = Z ng probes
 
-Add as many probes as you can given the amount of probes that you have, the number of hybridizations you want to do, and the amount of library that you have. We added 5-10 ng of probes to each hybridization.  
+Add as many probes as you can given the amount of probes that you have, the number of hybridizations you want to do, and the amount of library that you have. We added ~ 100 ng of probes to each hybridization.  
 
 ### Whole-genome library construction (for captures)
 Use the below protocol or your favorite other method that yields whole-genome libraries with indexed Illumina adapters.  
@@ -340,7 +339,7 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * ensure all ethanol is removed from sample
 * place sample (on magnetic rack) in the fume hood to dry for 8 min
 * remove sample from magnetic plate
-* resuspend beads in 40 µl of 10 mM Tris-HCl (pH 8)
+* resuspend beads in 40 µl of 10 mM Tris-HCl, pH 8
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
