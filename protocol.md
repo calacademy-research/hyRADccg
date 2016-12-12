@@ -48,9 +48,8 @@ Protocol
 * add 35 µL 10 mM Tris-HCl, pH 8 (pre-heated to 65°C)  
 * incubate at room temp 3 min
 * spin at 10,000 x g for 1 min
-
-* Quantify cleaned products using Qubit dsDNA High Sensitivity kit
-
+  * Quantify cleaned products using Qubit dsDNA High Sensitivity kit
+  
 ### Ligation
 In a PCR tube, prepare a 30 µl aliquot of digested DNA at concentration 4 ng/µl using sterile H20
 
@@ -271,7 +270,7 @@ Use the below protocol or your favorite other method that yields whole-genome li
 	* https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/dna-library-preparation/kapa-hyper-prep-kits/
 	
 Covaris shearing (for modern samples only)
-* For each sample, prepare a 130 µl aliquot of DNA at concentration 7.7 ng/µl in 10 mM Tris-HCl (pH 8)
+* For each sample, prepare a 130 µl aliquot of DNA at concentration 7.7 ng/µl in 10 mM Tris-HCl, pH 8
 * Transfer sample to a Covaris microTUBE (AFA Fiber Snap-Cap)
 * Use the following shear settings:
 
@@ -287,7 +286,7 @@ Temperature | 20°C
 These settings produce sheared product in the range of 100 - 400 bps
 * Run 20 ul of sheared product on a standard 1.5% agarose gel along with a 100 bp ladder to confirm size of sheared product
 
-KAPA End Repair and A-tailing
+KAPA End Repair and A-tailing (refer to the detailed Technical Data Sheet supplied with the KAPA Hyper Prep kit)
 * In a standard PCR strip tube, assemble the following per sample:
 
 Reagent	| x1  
@@ -307,6 +306,7 @@ Step |	Temp (°C) |	Time
 (2)	| 65 |	30 min
 (3)	| 8	| hold
 
+KAPA Ligation
 * To each End Repaired and A-tailed reaction, add the following:
 
 Reagent	| x1  
@@ -398,12 +398,12 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 
 * Quantify products using Qubit dsDNA High Sensitivity kit
 * Make a 1:5 dilution of each library in sterile H20
-* Run 1 µL of diluted products on Bioanalyzer using the High Sensitivity DNA kit
+* Run 1 µl of diluted products on Bioanalyzer using the High Sensitivity DNA kit
 
 * For single sample captures, use between 100 - 150 ng of each library for hybridization
 * For pooled sample captures, do the following:
 
-* Make an 18 ul working aliquot of each sample at 8.2 ng/ul in 10 mM Tris-HCl (pH 8)
+* Make an 18 ul working aliquot of each sample at 8.2 ng/ul in 10 mM Tris-HCl, pH 8
 * Pool each of the 18 ul aliquots together
 * Pipette mix 10X
 * Use a speed vac to dry down the pooled sample to ~ 6 ul volume
@@ -412,7 +412,7 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 ### Hybridization
 
 #### Reagents needed
-* 20X SSPE
+* 20X SSC
 * 50X Denhardt’s Solution
 * 0.5M EDTA, pH 8.0
 * 10% Sodium Dodecyl Sulfate (SDS)
@@ -425,30 +425,31 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 * H2O (molecular biology grade)
 * 0.1X SSC, 0.1% SDS
 * 1 M NaCl  
-* 10 mM Tris-HCl, pH 7.5  
+* 10 mM Tris-HCl, pH 8
 * 1 mM EDTA  
 * 10 mM Tris-HCl, 0.1 mM EDTA, pH 8.0
 * Dynabeads® MyOne™ Streptavidin C1 beads (Thermo Fisher Scientific)
   * https://www.thermofisher.com/order/catalog/product/65001
 
 #### Notes
-* Ensure that the combination of tubes and thermal cycler allows no more than 15% volume evaporation over the hybridization period at hybridization temperature.  
-* hybridize in 1.5 ml screw-cap tube with o-ring 
+* before starting make sure bench top incubator w/ rotator inside is set to 55°C
+* as well be sure one tube incubator is set to 55°C and the other is set to 95°C
+* hybridize in 1.5 ml screw-cap tubes with o-ring 
 
 #### Hybridization Mix Recipe  
 * This includes comparison with the final concentration of the reagents in the original hyRAD protocol and in the MyBaits protocol.  
 
 Reagent |	x1 | Final conc in 121 µL	| original hyRAD protocol final concentration |	MyBaits protocol final concentration
 ---- | ---- | ---- | ---- | ----
-20X SSPE | 54 µL |	8.93X |	8.60X |	9.47X
+20X SSC | 54 µL |	8.93X |	8.60X |	9.47X
 50X Denhardt’s Solution |	21 µL |	8.68X |	2.87X |	9.21X
 0.5M EDTA, pH 8.0 |	3 µL |	0.0124 M |	0.0072 M |	0.0132 M
 10% Sodium Dodecyl Sulfate (SDS) |	3 µL |	0.248% |	0.143% |	0.263%
-probes (107 ng) at 2.68 ng/µL |	40 µL | | |
-TOTAL |	121 µL | | |
+probes (~ 100 ng)  |	~ 40 µL | | |
+TOTAL |	~ 121 µL | | |
 
 * briefly vortex and centrifuge mix
-* aliquot 20 µL Hybridization Mix to individual tubes (separate from blocker and library tubes)
+* Note: white precipitate will form in Hyb Mix prior to addition of probes. Heat mix @ 65°C for 2 min for precipitate to dissolve. Bring back to room temp before adding probes.
 
 #### xGen Blocking Oligos
 * Depending on the library being hybridized, you will need to use the 6nt or 8nt p7 blocker from xGen. The Illumina LT adapters from the 1-12 set have a 6nt variable index area and the 13-24 set have a 8nt variable index area.
@@ -508,28 +509,28 @@ TOTAL	| 7.8 µL
 * May need to evaporate excess liquid to concentrate the libraries.
 
 #### Incubation
-* Use heated thermal cycler lid for incubations (stay at 105°C or at least 10°C hotter than each step temperature).
+* Use tube incubators for incubations
 
 Reaction Profile
 
 Step |	Temperature (°C) |	Time
 ---- | ---- | ----
 1	| 95	| 5 min
-2	| 65	| 5 min
-3	| 65	| hold
+2	| 55	| 5 min
+3	| 55	| hold
 
 * As summarized above in the reaction profile:
-  * incubate Blocker Mix + library in thermal cycler at 95°C for 5 min
-    * Could also perform incubation in an oven with rotator, which may improve results
-  * then let drop to 65°C for 5 min
-  * pause program (thermal cycler holding at 65°C)
-  * incubate Hybridization Mix at 65°C for 5 min (add tubes, close lid, resume program)
-  * after completion of 5 minutes, leave all tubes in thermal cycler, and add each Hybridization Mix into each Blocker Mix + library, mix by pipetting up and down 5 times
-    * use multichannel pipette for above step
-    * can throw away tubes that held Hybridization Mix
-  * hybridize (incubate at 65°C) for 24-40 hours
+  * incubate Blocker Mix + library at 95°C for 5 min
+  * incubate Blocker Mix + library at 55°C for 5 min
+  * incubate Hybridization Mix at 55°C for 5 min
+  * after completion of 5 minutes, leaving tubes in the incubators, quickly add each Hybridization Mix into each Blocker Mix + library
+    * ensure cap is  screwed tightly on hybridization tube
+* quickly transfer tube to tube rotator in pre-heated incubator. 
+* Snap tube into place and turn on rotator. 
+* Close glass door, cover with foil and tape door shut
+  * hybridize (incubate at 55°C) for 65-72 hours
 
-##### 1.5-2 hours before end of hybridization: prepare Wash and Binding Buffers
+##### 1.5-2 hours before end of hybridization: turn on one tube incubator to 65°C and one to 80°C & prepare Wash Buffer
 ###### Prepare Wash Buffer
 Wash Buffer Recipe
 
@@ -537,44 +538,49 @@ Reagent |	x33
 ---- | ----
 10% Sodium Dodecyl Sulfate (SDS) |	400 µL
 H2O	| 39.6 mL
-0.1X SSC, 0.1% SDS |	10 mL
+0.1X SSC, 0.1% SDS (= MyBaits Wash Buffer #2)|	10 mL
 TOTAL	| 50 mL
 * vortex thoroughly to mix
 * heat Wash Buffer to 65°C (hybridization temperature) for at least 45 min before use
 
-###### Binding Buffer Recipe  
-1 M NaCl  
+###### 2X Binding Buffer Recipe  
+2 M NaCl  
 10 mM Tris-HCl, pH 7.5  
 1 mM EDTA  
+0.5% Tween
 * it is efficient to make 45-50 mL of the Binding Buffer
+
+* bring Dynabeads to room temp and bring aliquot of AmPure beads to room temp
 
 ###### Bead Preparation
 * can prepare up to 160 µL of beads together in a 1.7 mL tube and multiply the wash and resuspension volumes accordingly
 * for each capture reaction, aliquot 50 µL Dynabeads MyOne Streptavidin C1 beads to a low-bind tube
 * place on magnetic particle collector (MPC) for 1-2 min until suspension clears
 * with tubes on MPC, remove supernatant and discard
-* add 200 µL Binding Buffer to each tube
+* add 200 µL 1X Binding Buffer to each tube
 * remove from MPC, vortex for 3 seconds, and briefly centrifuge
 * place on MPC for 1-2 min until suspension clears
 * with tubes on MPC, remove supernatant and discard
-* perform two additional washes with 200 µL Binding Buffer to give a total of three washes
-* finally, resuspend each washed bead aliquot in 70 µL Binding Buffer
+* perform two additional washes with 200 µL 1X Binding Buffer to give a total of three washes
+* finally, resuspend each washed bead aliquot in 70 µL 2X Binding Buffer - DO NOT pipette mix. Add buffer, gentle vortex and quick-spin
 
 #### Binding of Beads to Probes
-1. heat bead aliquot to 65°C for at least 2 min (use heated lid in thermal cycler, at least 10°C above block temperature)
-* transfer capture reaction to heated bead aliquot, pipette to mix
-* incubate beads + captures at 65°C for 30 min, agitate every 5 min to keep beads in suspension (flick tube)
+1. heat bead aliquot to 65°C for at least 10 min (use tube incubator)
+* transfer capture reaction to heated bead aliquot, invert tube to mix
+* incubate beads + captures at room temp for 30 min on nutator
 
 #### Bead Washing
-1. place beads + captures on magnetic particle concentrator for 2 min
+1. quick spin
+2. place beads + captures on magnetic particle concentrator for 2 min
 * remove supernatant
 * add 500 µL Wash Buffer (heated to 65°C) to the beads (180 µL if using small tubes), vortex for 3 seconds, and briefly centrifuge
-* incubate at 65°C for 10 min, agitate every 2-3 min to keep beads in suspension (flick tube and then briefly centrifuge)
-* place on magnetic particle concentrator for 1-2 min until suspension clears
+* incubate at 55°C for 10 min, in incubator on rotator
+* place on magnetic stand for 1-2 min until suspension clears
 * remove supernatant
 * perform two additional washes with 500 µL Wash Buffer (180 µL if using small tubes) for a total of three washes (perform four total washes if using small tubes)
 * following the last wash and pelleting on the magnetic particle concentrator, remove as much liquid as possible without touching the bead pellet
-* resuspend in 30 µL 10 mM Tris-HCl, 0.05% TWEEN (pH 8-8.5), pipette up and down to resuspend
+* resuspend in 30 µL 10 mM Tris-HCl, 0.05% TWEEN, pH 8 (pre-heated to 80°C)
+* gentle vortex and incubate for 10 min at 80°C, quick spin before magnetizing
 
 ### KAPA HiFi polymersae amplification
 * using HiFi Real-Time PCR Library Amplification Kit (Kapa Biosystems)  
@@ -587,7 +593,7 @@ Reagent	| x1
 final, cleaned, bead-bound libraries |	15 µL
 H2O |	5 µL
 KAPA HiFi HotStart Real-time PCR Master Mix (2X) |	25 µL
-Library Amplification Primer Mix (10X) |	5 µL
+KAPA Illumina Primer Mix (10X) |	5 µL
 TOTAL |	50 µL
 
 ###### rtPCR Reaction Conditions
