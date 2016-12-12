@@ -398,9 +398,11 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
   
+Quality control
 * Quantify products using Qubit dsDNA High Sensitivity kit
 * Make a 1:5 dilution of each library in sterile H20
 * Run 1 µl of diluted products on Bioanalyzer using the High Sensitivity DNA kit
+  
   
 * For single sample captures, use between 100 - 150 ng of each library for hybridization
   
