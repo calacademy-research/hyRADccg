@@ -74,8 +74,9 @@ Step |	Temperature (°C) |	Time
 4	| 20	| hold
 
 
-Perform standard 1.6X AmPure bead clean-up using the following protocol:
-* bring AmPure beads to room temperature
+Perform standard 1.6X AmPure bead clean-up using the following protocol:  
+  
+1. bring AmPure beads to room temperature
 * mix beads well
 * add 64 µL of beads to ligation rxn
 * pipette mix 10X
@@ -94,7 +95,7 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
-
+  
 ### Size Selection
 
 Perform a tight 325 bp target size selection using Blue Pippin 2% gel with marker V1
