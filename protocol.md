@@ -108,7 +108,7 @@ Proceed immediately to RT-PCR
     * https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/library-amplification/
     
 * pipette measure exactly how much product was collected from the Pippin
-* divide this number in half and set up two PCR reactions per sample using the following recipe:
+* divide this number in half and set up **two** PCR reactions per sample using the following recipe:
 
 KAPA real time PCR reaction mix:
 
@@ -287,7 +287,7 @@ Temperature | 20°C
 These settings produce sheared product in the range of 100 - 400 bps
 * Run 20 ul of sheared product on a standard 1.5% agarose gel along with a 100 bp ladder to confirm size of sheared product
 
-KAPA End Repair and A-tailing (refer to the detailed Technical Data Sheet supplied with the KAPA Hyper Prep kit)
+### KAPA End Repair and A-tailing (refer to the detailed Technical Data Sheet supplied with the KAPA Hyper Prep kit)
 * In a standard PCR strip tube, assemble the following per sample:
 
 Reagent	| x1  
@@ -307,7 +307,7 @@ Step |	Temp (°C) |	Time
 (2)	| 65 |	30 min
 (3)	| 8	| hold
 
-KAPA Ligation
+### KAPA Ligation
 * To each End Repaired and A-tailed reaction, add the following:
 
 Reagent	| x1  
@@ -376,8 +376,9 @@ plate read||
 * Once the desired amplification level is met, wait until step (5) to pause or cancel the run at 70°C and remove samples
 * Combine the sample replicates together and proceed to bead clean-up
 
-Perform standard 1.0X AmPure bead clean-up using the following protocol:
-* bring AmPure beads to room temperature
+Perform standard 1.0X AmPure bead clean-up using the following protocol:  
+  
+1. bring AmPure beads to room temperature
 * mix beads well
 * add an equal amount of beads to PCR rxn
 * pipette mix 10X
@@ -396,20 +397,21 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
-
+  
 * Quantify products using Qubit dsDNA High Sensitivity kit
 * Make a 1:5 dilution of each library in sterile H20
 * Run 1 µl of diluted products on Bioanalyzer using the High Sensitivity DNA kit
-
+  
 * For single sample captures, use between 100 - 150 ng of each library for hybridization
-* For pooled sample captures, do the following:
-
+  
+For pooled sample captures, do the following:
+  
 * Make an 18 ul working aliquot of each sample at 8.2 ng/ul in 10 mM Tris-HCl, pH 8
 * Pool each of the 18 ul aliquots together
 * Pipette mix 10X
 * Use a speed vac to dry down the pooled sample to ~ 6 ul volume
 * Use this pooled, concentrated sample for hybridization
-
+  
 ### Hybridization
 
 #### Reagents needed
