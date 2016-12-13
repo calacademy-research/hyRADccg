@@ -627,29 +627,35 @@ plate read||
 * use as few cycles as possible to obtain sufficient molarity for sequencing
 * pellet the beads in magnetic particle concentrator
 * remove the supernatant
-* purify it with Zymo Clean & Concentrator or AMPure beads (at 1.2X beads: DNA solution)
+* purify with AMPure beads
 
-###### Zymo DNA clean and concentrate
-* using DNA Clean & Concentrator™-5 columns (Zymo Research)  
-    * https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
   
-Protocol  
   
-1. add 6X DNA Binding Buffer
-* 50 µL * 6 = 300 µL DNA Binding Buffer
-* spin at 4000 x g for 3 min
-  * may need to perform multiple times as columns have a 800 µL capacity
-* spin at 10,000 x g for 30 sec
-* add 200 µL Wash Buffer
-* spin at 10,000 x g for 1 min
-* add 200 µL Wash Buffer
-* spin at 10,000 x g for 1 min 30 sec
-* transfer column to new tube
-* add 25 µL kit Resuspension Buffer (10 mM Tris-HCl + 0.1% TWEEN, pH 8.5) (pre-heated to 65°C)
-* incubate at room temp 2 min
-* spin at 10,000 x g for 1 min
-* final eluted volume is ~23 µL
-* keep cleaned product on ice
+Perform standard 1.0X AmPure bead clean-up using the following protocol:  
+  
+1. bring AmPure beads to room temperature
+* mix beads well
+* add an equal volume of beads to PCR rxn
+* pipette mix 10X
+* incubate at room temp for 10 min
+* place rxn on magnetic plate for 2 min
+* aspirate cleared solution and discard
+* dispense 200 µL of 80% ethanol to sample
+* wait 10 sec
+* aspirate out the ethanol and discard
+* repeat ethanol wash for a total of two washes
+* ensure all ethanol is removed from sample
+* place sample (on magnetic rack) in the fume hood to dry for 8 min
+* check that all ethanol has evaporated from the sample
+* remove sample from magnetic plate
+* resuspend beads in 30 µl of 10 mM Tris-HCl, pH 8
+* pipette mix 10X
+* place sample on magnetic plate for 2 min
+* aspirate eluted DNA and transfer to 0.5 ml non-stick tube
+  
+  
+
+
 
 
 ### References
