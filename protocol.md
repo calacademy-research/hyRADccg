@@ -327,11 +327,12 @@ TOTAL |	110 µL
 * For modern samples, incubate the reaction at 20°C for 15 min
 * For ancient samples, incubate the reactions at 20°C for 4 hours
 
-Perform standard 1.6X AmPure bead clean-up using the following protocol:
-* bring AmPure beads to room temperature
+
+Perform standard 1.6X AmPure bead clean-up using the following protocol:  
+  
+1. bring AmPure beads to room temperature
 * mix beads well
-* transfer sample to a 1.5 ml non-stick tube
-* add 176 µL of beads to ligation rxn
+* add 64 µL of beads to ligation rxn
 * pipette mix 10X
 * incubate at room temp for 10 min
 * place rxn on magnetic plate for 2 min
@@ -342,11 +343,14 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * repeat ethanol wash for a total of two washes
 * ensure all ethanol is removed from sample
 * place sample (on magnetic rack) in the fume hood to dry for 8 min
+* check that all ethanol has evaporated from the sample
 * remove sample from magnetic plate
-* resuspend beads in 40 µl of 10 mM Tris-HCl, pH 8
+* resuspend beads in 30 µl of 10 mM Tris-HCl, pH 8
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
+  
+  
 
 ### KAPA HiFi polymersae amplification
 * using HiFi Real-Time PCR Library Amplification Kit (Kapa Biosystems)  
