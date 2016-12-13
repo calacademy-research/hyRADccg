@@ -189,6 +189,7 @@ Step |	Temperature (°C) |	Time
 2	| 65	| 20 min
 3	| 8	| hold
 
+
 Perform standard 1.5X AmPure bead clean-up using the following protocol:  
   
 1. bring AmPure beads to room temperature
@@ -210,6 +211,7 @@ Perform standard 1.5X AmPure bead clean-up using the following protocol:
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
+  
   
 
 * Quantify products using Qubit dsDNA High Sensitivity kit
