@@ -155,9 +155,9 @@ Protocol
 * add 200 µL Wash Buffer
 * spin at 13,000 x g for 1 min 30 sec
 * transfer column to new tube
-* add 30 µL 10 mM Tris-HCl, pH 8 (pre-heated to 65°C)  
+* add 30 µL 10 mM Tris-HCl, pH 8 (pre-heated to 65°C)
 * incubate at room temp 3 min
-* spin at 10,000 x g for 1 min
+* spin at 10,000 x g for 1 min  
 	
 
 * Quantify products using Qubit dsDNA High Sensitivity kit
