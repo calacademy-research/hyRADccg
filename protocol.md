@@ -157,8 +157,8 @@ Protocol
 * transfer column to new tube
 * add 30 µL 10 mM Tris-HCl, pH 8 (pre-heated to 65°C)
 * incubate at room temp 3 min
-* spin at 10,000 x g for 1 min  
-	
+* spin at 10,000 x g for 1 min 
+  	
 
 * Quantify products using Qubit dsDNA High Sensitivity kit
 * Make a 1:20 dilution of RAD library in sterile H20
