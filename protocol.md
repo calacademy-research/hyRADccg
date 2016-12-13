@@ -162,7 +162,7 @@ Protocol
 * Quantify products using Qubit dsDNA High Sensitivity kit
 * Make a 1:20 dilution of RAD library in sterile H20
 * Run 1 µL of this diluted product on Bioanalyzer using the High Sensitivity DNA kit
-* Set aside at least 5 µL of RAD library and store at -20°C (excess product that is set aside at this step may be used to generate more probes via PCR if needed in the future)
+* Set aside at least 5 µL of RAD library and store at -20°C **(excess product that is set aside at this step may be used to generate more probes via PCR if needed in the future)**
 
 ###Deadapterization
 
@@ -189,8 +189,9 @@ Step |	Temperature (°C) |	Time
 2	| 65	| 20 min
 3	| 8	| hold
 
-Perform standard 1.5X AmPure bead clean-up using the following protocol:
-* bring AmPure beads to room temperature
+Perform standard 1.5X AmPure bead clean-up using the following protocol:  
+  
+1. bring AmPure beads to room temperature
 * mix beads well
 * add 75 µL of beads to ligation rxn
 * pipette mix 10X
@@ -202,12 +203,14 @@ Perform standard 1.5X AmPure bead clean-up using the following protocol:
 * aspirate out the ethanol and discard
 * repeat ethanol wash for a total of two washes
 * ensure all ethanol is removed from sample
-* place sample on magnetic rack in the fume hood to dry for 8 min
+* place sample (on magnetic rack) in the fume hood to dry for 8 min
+* check that all ethanol has evaporated from the sample
 * remove sample from magnetic plate
 * resuspend beads in 30 µl of 10 mM Tris-HCl, pH 8
 * pipette mix 10X
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
+  
 
 * Quantify products using Qubit dsDNA High Sensitivity kit
 * Run 1 µL of this product on Bioanalyzer using the High Sensitivity DNA kit
