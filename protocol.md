@@ -423,7 +423,7 @@ For pooled sample captures, do the following:
 * Make an 18 ul working aliquot of each sample at 8.2 ng/ul in 10 mM Tris-HCl, pH 8
 * Pool each of the 18 ul aliquots together
 * Pipette mix 10X
-* Use a speed vac to dry down the pooled sample to ~ 6 ul volume
+* Use a speed vac to dry down the pooled sample to ~ 7-10 ul volume
 * Use this pooled, concentrated sample for hybridization
   
 ## 3.0 Hybridization
@@ -451,7 +451,7 @@ For pooled sample captures, do the following:
 #### Notes
 * before starting make sure bench top incubator w/ rotator inside is set to 55°C
 * as well be sure one tube incubator is set to 55°C and the other is set to 95°C
-* hybridize in 1.5 ml screw-cap tubes with o-ring 
+* perform captures in 1.5 ml screw-cap tubes with o-ring 
 
 ### 3.1 Prepare Hybridization Mix & Blockers Mix
 
@@ -527,7 +527,7 @@ TOTAL	| 7.8 µL
 * Want 7-10 µL of total volume of libraries.
 * May need to evaporate excess liquid to concentrate the libraries.
 
-#### Incubation
+### 3.2 Incubation
 * Use tube incubators for incubations
 
 Reaction Profile
@@ -544,14 +544,16 @@ Step |	Temperature (°C) |	Time
   * incubate Hybridization Mix at 55°C for 5 min
   * after completion of 5 minutes, leaving tubes in the incubators, quickly add each Hybridization Mix into each Blocker Mix + library
     * ensure cap is  screwed tightly on hybridization tube
-* quickly transfer tube to tube rotator in pre-heated incubator. 
-* Snap tube into place and turn on rotator. 
-* Close glass door, cover with foil and tape door shut
+* quickly transfer tube to tube rotator in pre-heated incubator 
+* Snap tube into place and turn on rotator 
+* Close glass door, cover with foil, and tape door shut
   * hybridize (incubate at 55°C) for 65-72 hours
 
 ##### 1.5-2 hours before end of hybridization: turn on one tube incubator to 65°C and one to 80°C & prepare Wash Buffer
-###### Prepare Wash Buffer
-Wash Buffer Recipe
+
+### 3.3 Prepare Wash & Binding Buffers
+
+###### Wash Buffer Recipe:
 
 Reagent |	x33
 ---- | ----
@@ -571,7 +573,7 @@ TOTAL	| 50 mL
 
 * bring Dynabeads to room temp and bring aliquot of AmPure beads to room temp
 
-###### Bead Preparation
+### 3.4 Dynabead Preparation
 * can prepare up to 160 µL of beads together in a 1.7 mL tube and multiply the wash and resuspension volumes accordingly
 * for each capture reaction, aliquot 50 µL Dynabeads MyOne Streptavidin C1 beads to a low-bind tube
 * place on magnetic particle collector (MPC) for 1-2 min until suspension clears
@@ -582,6 +584,8 @@ TOTAL	| 50 mL
 * with tubes on MPC, remove supernatant and discard
 * perform two additional washes with 200 µL 1X Binding Buffer to give a total of three washes
 * finally, resuspend each washed bead aliquot in 70 µL 2X Binding Buffer - DO NOT pipette mix. Add buffer, gentle vortex and quick-spin
+
+### 3.5 Bead Binding & Washing
 
 #### Binding of Beads to Probes
 1. heat bead aliquot to 65°C for at least 10 min (use tube incubator)
@@ -601,7 +605,7 @@ TOTAL	| 50 mL
 * resuspend in 30 µL 10 mM Tris-HCl, 0.05% TWEEN, pH 8 (pre-heated to 80°C)
 * gentle vortex and incubate for 10 min at 80°C, quick spin before magnetizing
 
-### KAPA HiFi polymersae amplification
+### 3.6 RT-PCR
 * using HiFi Real-Time PCR Library Amplification Kit (Kapa Biosystems)  
     * https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/library-amplification/
 
@@ -615,7 +619,7 @@ KAPA HiFi HotStart Real-time PCR Master Mix (2X) |	25 µL
 KAPA Illumina Primer Mix (10X) |	5 µL
 TOTAL |	50 µL
 
-###### rtPCR Reaction Conditions
+RT-PCR Reaction Conditions:
 
 Step |	Temp (°C) |	Time
 ---- | ---- | ----
@@ -634,7 +638,8 @@ plate read||
 * purify with AMPure beads
 
   
-  
+### 3.7 PCR Bead Clean-up
+
 Perform standard 1.0X AmPure bead clean-up using the following protocol:  
   
 1. bring AmPure beads to room temperature
@@ -657,7 +662,10 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
   
-  
+### 3.8 QC
+* Quantify products using Qubit dsDNA High Sensitivity kit
+* Make a 1:5 dilution of each library in sterile H20
+* Run 1 µl of diluted products on Bioanalyzer using the High Sensitivity DNA kit 
 
 
 
