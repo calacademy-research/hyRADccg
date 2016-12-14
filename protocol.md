@@ -292,7 +292,7 @@ These settings produce sheared product in the range of 100 - 400 bps
 * Run 20 ul of sheared product on a standard 1.5% agarose gel along with a 100 bp ladder to confirm size of sheared product
 
 ### 2.2 KAPA End Repair and A-tailing 
-( refer to the detailed Technical Data Sheet supplied with the KAPA Hyper Prep kit)
+(refer to the detailed Technical Data Sheet supplied with the KAPA Hyper Prep kit)
 
 * In a standard PCR strip tube, assemble the following per sample:
 
@@ -313,7 +313,7 @@ Step |	Temp (°C) |	Time
 (2)	| 65 |	30 min
 (3)	| 8	| hold
 
-### KAPA Ligation
+### 2.3 KAPA Ligation
 * To each End Repaired and A-tailed reaction, add the following:
 
 Reagent	| x1  
@@ -330,7 +330,7 @@ TOTAL |	110 µL
 * For modern samples, incubate the reaction at 20°C for 15 min
 * For ancient samples, incubate the reactions at 20°C for 4 hours
 
-
+### 2.4 KAPA Ligation Bead Clean-up
 Perform standard 1.6X AmPure bead clean-up using the following protocol:  
   
 1. bring AmPure beads to room temperature
@@ -355,7 +355,7 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
   
   
 
-### KAPA HiFi polymersae amplification
+### 2.5 RT-PCR
 * using HiFi Real-Time PCR Library Amplification Kit (Kapa Biosystems)  
     * https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/library-amplification/
 
@@ -386,6 +386,7 @@ plate read||
 * Once the desired amplification level is met, wait until step (5) to pause or cancel the run at 70°C and remove samples
 * Combine the sample replicates together and proceed to bead clean-up
 
+### 2.6 PCR Bead Clean-up
 Perform standard 1.0X AmPure bead clean-up using the following protocol:  
   
 1. bring AmPure beads to room temperature
@@ -408,7 +409,7 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
   
-Quality control
+### 2.7 QC
 * Quantify products using Qubit dsDNA High Sensitivity kit
 * Make a 1:5 dilution of each library in sterile H20
 * Run 1 µl of diluted products on Bioanalyzer using the High Sensitivity DNA kit
@@ -425,7 +426,7 @@ For pooled sample captures, do the following:
 * Use a speed vac to dry down the pooled sample to ~ 6 ul volume
 * Use this pooled, concentrated sample for hybridization
   
-### Hybridization
+## 3.0 Hybridization
 
 #### Reagents needed
 * 20X SSC
@@ -452,7 +453,9 @@ For pooled sample captures, do the following:
 * as well be sure one tube incubator is set to 55°C and the other is set to 95°C
 * hybridize in 1.5 ml screw-cap tubes with o-ring 
 
-#### Hybridization Mix Recipe  
+### 3.1 Prepare Hybridization Mix & Blockers Mix
+
+#### Hybridization Mix Recipe
 * This includes comparison with the final concentration of the reagents in the original hyRAD protocol and in the MyBaits protocol.  
 
 Reagent |	x1 | Final conc in 121 µL	| original hyRAD protocol final concentration |	MyBaits protocol final concentration
