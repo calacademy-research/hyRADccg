@@ -25,7 +25,7 @@ TOTAL |	50 µL
 * Using a thermal cycler, incubate the reaction at 37°C for 3 hours
 
 
-#### 1.2 Double Digest Zymo Clean-Up
+### 1.2 Double Digest Zymo Clean-Up
 * using DNA Clean & Concentrator™-5 columns (Zymo Research)  
     * https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
   
@@ -70,7 +70,7 @@ Step |	Temperature (°C) |	Time
 3	| 65	| 1.5 min, decrease -2°C every cycle for 23 cycles
 4	| 20	| hold
 
-#### 1.4 Ligation Bead Clean-Up
+### 1.4 Ligation Bead Clean-Up
 Perform standard 1.6X AmPure bead clean-up using the following protocol:  
   
 1. bring AmPure beads to room temperature
@@ -118,7 +118,7 @@ KAPA HiFi HotStart Real-time PCR Master Mix (2X) |	25 µL
 25 uM PCR2 indexed primer |	1 µL
 TOTAL |	50 µL
 
-#### RT-PCR Reaction Conditions
+### RT-PCR Reaction Conditions
 
 Step |	Temp (°C) |	Time
 ---- | ---- | ----
