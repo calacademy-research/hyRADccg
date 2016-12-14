@@ -22,9 +22,8 @@ SphI (20000 U/ml)| 1 µL
 TOTAL |	50 µL  
 
 * Pipette mix 5X
-
 * Using a thermal cycler, incubate the reaction at 37°C for 3 hours
-* Clean digested product using a Zymo DNA Clean & Concentrator™-5 column
+
 
 #### 1.2 Double Digest Zymo Clean-Up
 * using DNA Clean & Concentrator™-5 columns (Zymo Research)  
