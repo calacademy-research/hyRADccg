@@ -5,10 +5,10 @@
 
 ## Wetlab protocol  
 
-### ddRAD library construction (for use in making probes)
+### 1. ddRAD RAD library & probe construction
 Use the below protocol or your favorite other method for construction of a ddRAD library.  
 
-### Double Digest
+### 1.1 Double Digest
 * Quantify extracted DNA using Qubit dsDNA High Sensitivity kit
 
 * Prepare a 40 µl aliquot of DNA at concentration 12.5 ng/µl
