@@ -1,11 +1,9 @@
-# hyRADccg protocol  
+# hyRADccg wetlab protocol  
 
 * This markdown document can be printed for use at the bench with no formatting worries (such as lines spanning pages).
-* The reagent-calc.md doc that is also in this repository details how we calculated the amounts of probes, blocking oligos, binding beads, and input library used in this protocol.
+* The reagent-calc.md doc that is also in this repository details how we calculated the amounts of probes, blocking oligos, binding beads, and input library used in this protocol. 
 
-## Wetlab protocol  
-
-### 1. ddRAD RAD library & probe construction
+## 1. ddRAD RAD library & probe construction
 Use the below protocol or your favorite other method for construction of a ddRAD library.  
 
 ### 1.1 Double Digest
@@ -28,7 +26,7 @@ TOTAL |	50 µL
 * Using a thermal cycler, incubate the reaction at 37°C for 3 hours
 * Clean digested product using a Zymo DNA Clean & Concentrator™-5 column
 
-#### Zymo DNA clean and concentrate  
+#### 1.2 Double Digest Zymo Clean-Up
 * using DNA Clean & Concentrator™-5 columns (Zymo Research)  
     * https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
   
@@ -50,7 +48,7 @@ Protocol
 * spin at 10,000 x g for 1 min
   * Quantify cleaned products using Qubit dsDNA High Sensitivity kit
   
-### Ligation
+### 1.3 Ligation
 In a PCR tube, prepare a 30 µl aliquot of digested DNA at concentration 4 ng/µl using sterile H20
 
 To this aliquot, add the following reagents:
@@ -73,7 +71,7 @@ Step |	Temperature (°C) |	Time
 3	| 65	| 1.5 min, decrease -2°C every cycle for 23 cycles
 4	| 20	| hold
 
-
+#### 1.4 Ligation Bead Clean-Up
 Perform standard 1.6X AmPure bead clean-up using the following protocol:  
   
 1. bring AmPure beads to room temperature
@@ -96,14 +94,14 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
   
-### Size Selection
+### 1.5 Size Selection
 
 Perform a tight 325 bp target size selection using Blue Pippin 2% gel with marker V1
 
 Proceed immediately to RT-PCR
 
 
-### KAPA HiFi polymerase amplification
+### 1.6 RT PCR
 * using HiFi Real-Time PCR Library Amplification Kit (Kapa Biosystems)  
     * https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/library-amplification/
     
@@ -137,8 +135,8 @@ plate read||
 * Once the amplification graph shows RFU plateau, wait until step (5) to pause or cancel the run at 72°C and remove samples
 * Clean PCR product using gel excision with the Zymoclean Gel DNA Recovery kit
 
-#### Gel excision with Zymoclean DNA Recovery kit  
-* using Zymoclean DNA Recovery kit
+#### 1.7 PCR Clean-up Using Gel Excision
+* with Zymoclean DNA Recovery kit
     * https://www.zymoresearch.com/dna/dna-clean-up/gel-dna-recovery/zymoclean-gel-dna-recovery-kit
   
 Protocol  
@@ -158,13 +156,14 @@ Protocol
 * add 30 µL 10 mM Tris-HCl, pH 8 (pre-heated to 65°C)
 * incubate at room temp 3 min
 * spin at 10,000 x g for 1 min
-  
+ 
+### 1.8 QC
 * Quantify products using Qubit dsDNA High Sensitivity kit
 * Make a 1:20 dilution of RAD library in sterile H20
 * Run 1 µL of this diluted product on Bioanalyzer using the High Sensitivity DNA kit
 * Set aside at least 5 µL of RAD library and store at -20°C **(excess product that is set aside at this step may be used to generate more probes via PCR if needed in the future)**
 
-###Deadapterization
+### 1.9 Deadapterization
 
 * Calculate out how many ngs of product you have
 * Prepare as many deadapterization rxns that your product will allow for using the below recipe:
@@ -189,7 +188,7 @@ Step |	Temperature (°C) |	Time
 2	| 65	| 20 min
 3	| 8	| hold
 
-
+#### 1.10 Deadapterization Bead Clean-Up
 Perform standard 1.5X AmPure bead clean-up using the following protocol:  
   
 1. bring AmPure beads to room temperature
@@ -217,7 +216,7 @@ Perform standard 1.5X AmPure bead clean-up using the following protocol:
 * Quantify products using Qubit dsDNA High Sensitivity kit
 * Run 1 µL of this product on Bioanalyzer using the High Sensitivity DNA kit
 
-### Biotin Nick Labeling  
+### 1.11 Probe Biotinylation  
 * using BioNick™ DNA Labeling System (Thermo Fisher Scientific)  
     * https://www.thermofisher.com/order/catalog/product/18247015
   
@@ -238,7 +237,7 @@ TOTAL |	50 µL
 * add 5 µL Stop Buffer  
 * clean reactions using Zymo Clean & Concentrator protocol below
 
-#### Zymo DNA clean and concentrate  
+#### 1.12 Biotinylation Zymo Clean-Up  
 * using DNA Clean & Concentrator™-5 columns (Zymo Research)  
     * https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
   
@@ -259,7 +258,8 @@ Protocol
 * spin at 10,000 x g for 1 min
 * keep cleaned product on ice
   * probes can be stored at -20°C in TE buffer for at least one year
-  
+
+### 1.13 QC 
 * Quantify probe products using Qubit dsDNA High Sensitivity kit
 * Run 1 µL of this product on Bioanalyzer using the High Sensitivity DNA kit
 
@@ -269,7 +269,7 @@ X µL of probes at Qubit concentration (ng/µL) = Z ng probes
 
 Add as many probes as you can given the amount of probes that you have, the number of hybridizations you want to do, and the amount of library that you have. We added ~ 100 ng of probes to each hybridization.  
 
-### Whole-genome library construction (for captures)
+## 2. Whole-genome Library Preps (for captures)
 Use the below protocol or your favorite other method that yields whole-genome libraries with indexed Illumina adapters.  
 
 * using KAPA Hyper Prep kit
