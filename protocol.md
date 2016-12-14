@@ -29,7 +29,7 @@ TOTAL |	50 µL
 * using DNA Clean & Concentrator™-5 columns (Zymo Research)  
     * https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
   
-Protocol  
+Zymo Protocol:  
   
 1. Transfer digested sample to 1.5 ml non-stick tube
 * add 5X DNA Binding Buffer (50 µL * 5 = 250 µL DNA Binding Buffer)
@@ -118,7 +118,7 @@ KAPA HiFi HotStart Real-time PCR Master Mix (2X) |	25 µL
 25 uM PCR2 indexed primer |	1 µL
 TOTAL |	50 µL
 
-### RT-PCR Reaction Conditions
+RT-PCR Reaction Conditions:
 
 Step |	Temp (°C) |	Time
 ---- | ---- | ----
