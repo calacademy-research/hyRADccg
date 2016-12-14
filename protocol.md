@@ -134,11 +134,11 @@ plate read||
 * Once the amplification graph shows RFU plateau, wait until step (5) to pause or cancel the run at 72°C and remove samples
 * Clean PCR product using gel excision with the Zymoclean Gel DNA Recovery kit
 
-#### 1.7 PCR Clean-up Using Gel Excision
+### 1.7 PCR Clean-up Using Gel Excision
 * with Zymoclean DNA Recovery kit
     * https://www.zymoresearch.com/dna/dna-clean-up/gel-dna-recovery/zymoclean-gel-dna-recovery-kit
   
-Protocol  
+Excison Protocol:  
   
 1. Run PCR product out on a 1% low melt agarose gel along with a 100 bp ladder
 * Excise the PCR band using a sterile razor and place the gel slice in a 1.5 ml non-stick tube
@@ -187,7 +187,7 @@ Step |	Temperature (°C) |	Time
 2	| 65	| 20 min
 3	| 8	| hold
 
-#### 1.10 Deadapterization Bead Clean-Up
+### 1.10 Deadapterization Bead Clean-Up
 Perform standard 1.5X AmPure bead clean-up using the following protocol:  
   
 1. bring AmPure beads to room temperature
@@ -236,11 +236,11 @@ TOTAL |	50 µL
 * add 5 µL Stop Buffer  
 * clean reactions using Zymo Clean & Concentrator protocol below
 
-#### 1.12 Biotinylation Zymo Clean-Up  
+### 1.12 Biotinylation Zymo Clean-Up  
 * using DNA Clean & Concentrator™-5 columns (Zymo Research)  
     * https://www.zymoresearch.com/dna/dna-clean-up/pcr-dna-clean-up-concentration/dna-clean-concentrator-5
   
-Protocol  
+Zymo Protocol:  
    
 1. Transfer digested sample to 1.5 ml non-stick tube
 2. add 5X DNA Binding Buffer (50 µL * 5 = 250 µL DNA Binding Buffer)
@@ -274,7 +274,7 @@ Use the below protocol or your favorite other method that yields whole-genome li
 * using KAPA Hyper Prep kit
 	* https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/dna-library-preparation/kapa-hyper-prep-kits/
 	
-Covaris shearing (for modern samples only)
+## 2.1 Covaris shearing (for modern samples only)
 * For each sample, prepare a 130 µl aliquot of DNA at concentration 7.7 ng/µl in 10 mM Tris-HCl, pH 8
 * Transfer sample to a Covaris microTUBE (AFA Fiber Snap-Cap)
 * Use the following shear settings:
@@ -291,7 +291,9 @@ Temperature | 20°C
 These settings produce sheared product in the range of 100 - 400 bps
 * Run 20 ul of sheared product on a standard 1.5% agarose gel along with a 100 bp ladder to confirm size of sheared product
 
-### KAPA End Repair and A-tailing (refer to the detailed Technical Data Sheet supplied with the KAPA Hyper Prep kit)
+### 2.2 KAPA End Repair and A-tailing 
+( refer to the detailed Technical Data Sheet supplied with the KAPA Hyper Prep kit)
+
 * In a standard PCR strip tube, assemble the following per sample:
 
 Reagent	| x1  
