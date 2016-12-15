@@ -577,15 +577,15 @@ TOTAL	| 50 mL
 
 To wash Dynabeads:  
 
-1. for each capture reaction, aliquot 50 µL Dynabeads MyOne Streptavidin C1 beads to a low-bind tube
-* place on magnetic particle collector (MPC) for 1-2 min until suspension clears
-* with tubes on MPC, remove supernatant and discard
+1. for each capture reaction, aliquot 50 µL Dynabeads MyOne Streptavidin C1 beads to a 1.5 ml non-stick tube
+* place on magnetic plate for 2 min until suspension clears
+* aspirate out supernatant and discard
 * add 200 µL 1X Binding Buffer to each tube
-* remove from MPC, vortex for 3 seconds, and briefly centrifuge
-* place on MPC for 1-2 min until suspension clears
-* with tubes on MPC, remove supernatant and discard
-* perform two additional washes with 200 µL 1X Binding Buffer to give a total of three washes
-* finally, resuspend each washed bead aliquot in 70 µL 2X Binding Buffer - DO NOT pipette mix. Add buffer, gentle vortex and quick-spin  
+* remove samples from magnetic plate, vortex for 3 seconds, and pulse spin
+* place on magnetic plate for 2 min until suspension clears
+* aspirate out supernatant and discard
+* perform ** two **  additional washes with 200 µL 1X Binding Buffer to give a total of ** three ** washes
+* finally, resuspend each washed bead aliquot in 70 µL 2X Binding Buffer - DO NOT pipette mix. Add buffer, gentle vortex and pulse spin  
   
 
 ### 3.5 Bead Binding & Washing
