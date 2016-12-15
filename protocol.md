@@ -448,10 +448,10 @@ For pooled sample captures, do the following:
 * Dynabeads® MyOne™ Streptavidin C1 beads (Thermo Fisher Scientific)
   * https://www.thermofisher.com/order/catalog/product/65001
 
-#### Notes
-* before starting make sure bench top incubator w/ rotator inside is set to 55°C
-* as well be sure one tube incubator is set to 55°C and the other is set to 95°C
-* perform captures in 1.5 ml screw-cap tubes with o-ring 
+#### Other Notes
+* Before starting make sure ** bench top incubator ** (w/ rotator inside) is set to 55°C
+* Also be sure one ** tube incubator ** is set to 55°C and the other is set to 95°C
+* Perform captures in ** 1.5 ml screw-cap tubes with o-ring ** 
 
 ### 3.1 Prepare Hybridization Mix & Blockers Mix
 
@@ -574,8 +574,10 @@ TOTAL	| 50 mL
 * bring Dynabeads to room temp and bring aliquot of AmPure beads to room temp
 
 ### 3.4 Dynabead Preparation
-* can prepare up to 160 µL of beads together in a 1.7 mL tube and multiply the wash and resuspension volumes accordingly
-* for each capture reaction, aliquot 50 µL Dynabeads MyOne Streptavidin C1 beads to a low-bind tube
+
+To wash Dynabeads:  
+
+1. for each capture reaction, aliquot 50 µL Dynabeads MyOne Streptavidin C1 beads to a low-bind tube
 * place on magnetic particle collector (MPC) for 1-2 min until suspension clears
 * with tubes on MPC, remove supernatant and discard
 * add 200 µL 1X Binding Buffer to each tube
@@ -583,7 +585,8 @@ TOTAL	| 50 mL
 * place on MPC for 1-2 min until suspension clears
 * with tubes on MPC, remove supernatant and discard
 * perform two additional washes with 200 µL 1X Binding Buffer to give a total of three washes
-* finally, resuspend each washed bead aliquot in 70 µL 2X Binding Buffer - DO NOT pipette mix. Add buffer, gentle vortex and quick-spin
+* finally, resuspend each washed bead aliquot in 70 µL 2X Binding Buffer - DO NOT pipette mix. Add buffer, gentle vortex and quick-spin  
+  
 
 ### 3.5 Bead Binding & Washing
 
