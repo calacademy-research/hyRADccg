@@ -3,22 +3,22 @@
 * This markdown document can be printed for use at the bench with no formatting worries (such as lines spanning pages).
 * The reagent-calc.md doc that is also in this repository details how we calculated the amounts of probes, blocking oligos, binding beads, and input library used in this protocol. 
 
-Contents  
-## 1. ddRAD RAD library & probe construction
-### 1.1 Double Digest
-### 1.2 Double Digest Zymo Clean-Up
-### 1.3 Ligation
-### 1.4 Ligation Bead Clean-Up  
-### 1.5 Size Selection
-### 1.6 RT PCR
-### 1.7 PCR Clean-up Using Gel Excision
-### 1.8 QC
-### 1.9 Deadapterization
-### 1.10 Deadapterization Bead Clean-Up
-### 1.11 Probe Biotinylation  
-### 1.12 Biotinylation Zymo Clean-Up  
-### 1.13 QC 
-## 2. Whole-genome Library Preps (for captures)
+## Contents  
+#### 1. ddRAD RAD library & probe construction
+##### 1.1 Double Digest
+##### 1.2 Double Digest Zymo Clean-Up
+##### 1.3 Ligation
+##### 1.4 Ligation Bead Clean-Up  
+##### 1.5 Size Selection
+##### 1.6 RT PCR
+##### 1.7 PCR Clean-up Using Gel Excision
+##### 1.8 QC
+##### 1.9 Deadapterization
+##### 1.10 Deadapterization Bead Clean-Up
+##### 1.11 Probe Biotinylation  
+##### 1.12 Biotinylation Zymo Clean-Up  
+##### 1.13 QC 
+#### 2. Whole-genome Library Preps (for captures)
 ### 2.1 Covaris shearing (for modern samples only)
 ### 2.2 KAPA End Repair and A-tailing 
 ### 2.3 KAPA Ligation
