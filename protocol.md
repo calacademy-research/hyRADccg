@@ -3,6 +3,39 @@
 * This markdown document can be printed for use at the bench with no formatting worries (such as lines spanning pages).
 * The reagent-calc.md doc that is also in this repository details how we calculated the amounts of probes, blocking oligos, binding beads, and input library used in this protocol. 
 
+Contents  
+## 1. ddRAD RAD library & probe construction
+### 1.1 Double Digest
+### 1.2 Double Digest Zymo Clean-Up
+### 1.3 Ligation
+### 1.4 Ligation Bead Clean-Up  
+### 1.5 Size Selection
+### 1.6 RT PCR
+### 1.7 PCR Clean-up Using Gel Excision
+### 1.8 QC
+### 1.9 Deadapterization
+### 1.10 Deadapterization Bead Clean-Up
+### 1.11 Probe Biotinylation  
+### 1.12 Biotinylation Zymo Clean-Up  
+### 1.13 QC 
+## 2. Whole-genome Library Preps (for captures)
+### 2.1 Covaris shearing (for modern samples only)
+### 2.2 KAPA End Repair and A-tailing 
+### 2.3 KAPA Ligation
+### 2.4 KAPA Ligation Bead Clean-up
+### 2.5 RT-PCR
+### 2.6 PCR Bead Clean-up
+### 2.7 QC
+## 3.0 Hybridization
+### 3.1 Prepare Hybridization Mix & Blockers Mix
+### 3.2 Incubation
+### 3.3 Prepare Wash & Binding Buffers
+### 3.4 Dynabead Preparation
+### 3.5 Bead Binding & Washing
+### 3.6 RT-PCR
+### 3.7 PCR Bead Clean-up
+### 3.8 QC
+
 ## 1. ddRAD RAD library & probe construction
 Use the below protocol or your favorite other method for construction of a ddRAD library.  
 
@@ -274,7 +307,7 @@ Use the below protocol or your favorite other method that yields whole-genome li
 * using KAPA Hyper Prep kit
 	* https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/dna-library-preparation/kapa-hyper-prep-kits/
 	
-## 2.1 Covaris shearing (for modern samples only)
+### 2.1 Covaris shearing (for modern samples only)
 * For each sample, prepare a 130 µl aliquot of DNA at concentration 7.7 ng/µl in 10 mM Tris-HCl, pH 8
 * Transfer sample to a Covaris microTUBE (AFA Fiber Snap-Cap)
 * Use the following shear settings:
