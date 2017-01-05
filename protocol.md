@@ -564,7 +564,7 @@ TOTAL	| 50 mL
 * vortex thoroughly to mix
 * heat Wash Buffer to 65°C (hybridization temperature) for at least 45 min before use
 
-###### 2X Binding Buffer Recipe  
+###### 2X Binding Buffer Recipe:  
 2 M NaCl  
 10 mM Tris-HCl, pH 7.5  
 1 mM EDTA  
