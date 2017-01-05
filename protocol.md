@@ -26,7 +26,7 @@
 2.5 RT-PCR  
 2.6 PCR Bead Clean-up  
 2.7 QC  
-3.0 Hybridization  
+3. Hybridization  
 3.1 Prepare Hybridization Mix & Blockers Mix  
 3.2 Incubation  
 3.3 Prepare Wash & Binding Buffers  
@@ -459,7 +459,7 @@ For pooled sample captures, do the following:
 * Use a speed vac to dry down the pooled sample to ~ 7-10 ul volume
 * Use this pooled, concentrated sample for hybridization
   
-## 3.0 Hybridization
+## 3. Hybridization
 
 #### Reagents needed
 * 20X SSC
