@@ -366,11 +366,12 @@ TOTAL |	110 µL
 * For **ancient samples**, incubate the reactions at 20°C for 4 hours
 
 ### 2.4 KAPA Ligation Bead Clean-up
-Perform standard 1.6X AmPure bead clean-up using the following protocol:  
+Perform standard 1.5X AmPure bead clean-up using the following protocol:  
   
 1. bring AmPure beads to room temperature
+* transfer samples to 1.5 ml non-stick tubes
 * mix beads well
-* add 64 µL of beads to ligation rxn
+* add 165 µL of beads to ligation rxn
 * pipette mix 10X
 * incubate at room temp for 10 min
 * place rxn on magnetic plate for 2 min
@@ -383,8 +384,9 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * place sample (on magnetic rack) in the fume hood to dry for 8 min
 * check that all ethanol has evaporated from the sample
 * remove sample from magnetic plate
-* resuspend beads in 30 µl of 10 mM Tris-HCl, pH 8
+* resuspend beads in 40 µl of 10 mM Tris-HCl, pH 8
 * pipette mix 10X
+* incubate at room temp for 5 min
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
   
@@ -418,7 +420,7 @@ plate read||
 (7) |	72 |	1min
 
 * Run the PCR as many cycles as it takes for amplification to reach between 3500 - 4000 RFU. This should take only ~ 5 cycles.
-* Once the desired amplification level is met, wait until step (5) to pause or cancel the run at 70°C and remove samples
+* Once the desired amplification level is met, wait until step (5) to pause or cancel the run at 72°C and remove samples
 * Combine the sample replicates together and proceed to bead clean-up
 
 ### 2.6 PCR Bead Clean-up
@@ -426,7 +428,7 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
   
 1. bring AmPure beads to room temperature
 * mix beads well
-* add an equal amount of beads to PCR rxn
+* add an equal amount of beads to PCR rxn (~100 ul)
 * pipette mix 10X
 * incubate at room temp for 10 min
 * place rxn on magnetic plate for 2 min
@@ -441,6 +443,7 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 * check that all ethanol has evaporated from tubes
 * resuspend beads in 40 µl of 10 mM Tris-HCl (pH 8)
 * pipette mix 10X
+* incubate at room temp for 5 min
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
   
@@ -523,10 +526,10 @@ TS-p5 and TS-p7 (8nt Index) compatibility
 Dilution of xGen Blockers  
 * IDT recommends resuspending blocking oligos in 10 mM Tris-HCl, 0.1 mM EDTA, pH 8.0.
 * IDT also recommends resuspending blocking oligos to a final concentration of 1 nmole/µL and that we use 1 nmole of the oligos in each capture reaction.
-* We are only adding 0.1 nmole blocker / library, though.
+* However, from our experiments, we have found we only need 0.1 nmole of blocker per library.
 
 #### Blockers Mix Recipe - Individual Captures
-To make pipetting easier, let's make a 1:20 dilution of an aliquot of our stock blocking oligos.
+To make pipetting easier, we make a 1:20 dilution of an aliquot of our stock blocking oligos.
 * take 1 µL of each oligo and add it to 19 µL 10 mM Tris-HCl, 0.1 mM EDTA, pH 8.0.
 * This gives a final concentration of 0.05 nmole/µL.
 
@@ -546,7 +549,7 @@ To make pipetting easier, let's make a 1:10 dilution of an aliquot of our stock 
 * We tried pooling up to 7 samples for a single capture reaction.  
 * xGen Blockers: 0.1 nmole / sample * 7 samples = 0.7 nmole xGen blockers  
 
-Blockers Mix Recipe - 7 Samples Pooled Capture  
+Blockers Mix Recipe for a 7 sample pooled capture:  
 
 Reagent |	x1
 ---- | ----
