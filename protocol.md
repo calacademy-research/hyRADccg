@@ -485,7 +485,7 @@ For pooled sample captures, do the following:
 #### Other Notes
 * Before starting make sure **bench top incubator** (w/ rotator inside) is set to 55°C
 * Also be sure one **tube incubator** is set to 55°C and the other is set to 95°C
-* Perform captures in **1.5 ml screw-cap tubes with o-ring** 
+* Perform captures in **1.5 ml screw-cap tubes with o-ring**  
 
 ### 3.1 Prepare Hybridization Mix & Blockers Mix
 
