@@ -145,7 +145,7 @@ KAPA real time PCR reaction mix:
 
 Reagent	| x1
 ---- | ----
-size selected Pippin product* |	20 µL
+size selected Pippin product* |	~20 µL
 H2O |	3 µL
 KAPA HiFi HotStart Real-time PCR Master Mix (2X) |	25 µL
 25 uM PCR1 primer |	1 µL
