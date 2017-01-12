@@ -123,8 +123,9 @@ Perform standard 1.6X AmPure bead clean-up using the following protocol:
 * remove sample from magnetic plate
 * resuspend beads in 30 µl of 10 mM Tris-HCl, pH 8
 * pipette mix 10X
+* incubate at room temp for 5 min
 * place sample on magnetic plate for 2 min
-* aspirate eluted DNA and transfer to 0.5 ml non-stick tube
+* aspirate eluted DNA and transfer to a 0.5 ml non-stick tube
   
 ### 1.5 Size Selection
 
@@ -482,9 +483,9 @@ For pooled sample captures, do the following:
   * https://www.thermofisher.com/order/catalog/product/65001
 
 #### Other Notes
-* Before starting make sure ** bench top incubator ** (w/ rotator inside) is set to 55°C
-* Also be sure one ** tube incubator ** is set to 55°C and the other is set to 95°C
-* Perform captures in ** 1.5 ml screw-cap tubes with o-ring ** 
+* Before starting make sure **bench top incubator** (w/ rotator inside) is set to 55°C
+* Also be sure one **tube incubator** is set to 55°C and the other is set to 95°C
+* Perform captures in **1.5 ml screw-cap tubes with o-ring** 
 
 ### 3.1 Prepare Hybridization Mix & Blockers Mix
 
