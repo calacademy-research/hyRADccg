@@ -421,7 +421,7 @@ plate read||
 
 * Run the PCR as many cycles as it takes for amplification to reach between 3500 - 4000 RFU. This should take only ~ 5 cycles.
 * Once the desired amplification level is met, wait until step (5) to pause or cancel the run at 72°C and remove samples
-* Combine the sample replicates together and proceed to bead clean-up
+* Combine the PCR replicates together and proceed to bead clean-up
 
 ### 2.6 PCR Bead Clean-up
 Perform standard 1.0X AmPure bead clean-up using the following protocol:  
@@ -565,10 +565,10 @@ TOTAL	| 7.8 µL
 
 ###### Amount of capture libraries to add
 * Want 7-10 µL of total volume of libraries.
-* May need to evaporate excess liquid to concentrate the libraries.
+* May need to evaporate excess liquid to concentrate the libraries (see section 2.7).
 
 ### 3.2 Incubation
-* Use tube incubators for incubations
+* Use tube incubators for incubations (vs. thermal-cyclers)
 
 Reaction Profile
 
@@ -584,7 +584,7 @@ Step |	Temperature (°C) |	Time
   * incubate Hybridization Mix at 55°C for 5 min
   * after completion of 5 minutes, leaving tubes in the incubators, quickly add each Hybridization Mix into each Blocker Mix + library
     * ensure cap is  screwed tightly on hybridization tube
-* quickly transfer tube to tube rotator in pre-heated incubator 
+* quickly transfer tube to tube rotator in pre-heated (55°C) incubator 
 * Snap tube into place and turn on rotator 
 * Close glass door, cover with foil, and tape door shut
   * hybridize (incubate at 55°C) for 65-72 hours
@@ -602,14 +602,15 @@ H2O	| 39.6 mL
 0.1X SSC, 0.1% SDS (= MyBaits Wash Buffer #2)|	10 mL
 TOTAL	| 50 mL
 * vortex thoroughly to mix
-* heat Wash Buffer to 65°C (hybridization temperature) for at least 45 min before use
+* heat Wash Buffer aliquots to 65°C (hybridization temperature) for at least 45 min before use
 
 ###### 2X Binding Buffer Recipe:  
 2 M NaCl  
 10 mM Tris-HCl, pH 7.5  
 1 mM EDTA  
 0.5% Tween
-* it is efficient to make 45-50 mL of the Binding Buffer
+* it is efficient to make 45-50 mls of the 2X Binding Buffer
+* from this, prepare 10 mls of 1X Binding Buffer
 
 * bring Dynabeads to room temp and bring aliquot of AmPure beads to room temp
 
@@ -624,7 +625,7 @@ To wash Dynabeads:
 * remove samples from magnetic plate, vortex for 3 seconds, and pulse spin
 * place on magnetic plate for 2 min until suspension clears
 * aspirate out supernatant and discard
-* perform ** two **  additional washes with 200 µL 1X Binding Buffer to give a total of ** three ** washes
+* perform **two**  additional washes with 200 µL 1X Binding Buffer to give a total of **three** washes
 * finally, resuspend each washed bead aliquot in 70 µL 2X Binding Buffer - DO NOT pipette mix. Add buffer, gentle vortex and pulse spin  
   
 
@@ -637,15 +638,15 @@ To wash Dynabeads:
 
 #### Bead Washing
 1. quick spin
-2. place beads + captures on magnetic particle concentrator for 2 min
+2. place beads + captures on magnetic stand for 2 min
 * remove supernatant
-* add 500 µL Wash Buffer (heated to 65°C) to the beads (180 µL if using small tubes), vortex for 3 seconds, and briefly centrifuge
+* add 500 µL Wash Buffer (heated to 65°C) to the beads, vortex for 3 seconds, and pulse centrifuge
 * incubate at 55°C for 10 min, in incubator on rotator
 * place on magnetic stand for 1-2 min until suspension clears
 * remove supernatant
-* perform two additional washes with 500 µL Wash Buffer (180 µL if using small tubes) for a total of three washes (perform four total washes if using small tubes)
-* following the last wash and pelleting on the magnetic particle concentrator, remove as much liquid as possible without touching the bead pellet
-* resuspend in 30 µL 10 mM Tris-HCl, 0.05% TWEEN, pH 8 (pre-heated to 80°C)
+* perform two additional washes with 500 µL Wash Buffer for a total of three washes
+* following the last wash and pelleting on the magnetic stand, remove as much liquid as possible without touching the bead pellet
+* resuspend in 30 µL 10 mM Tris-HCl, pH 8 (pre-heated to 80°C)
 * gentle vortex and incubate for 10 min at 80°C, quick spin before magnetizing
 
 ### 3.6 RT-PCR
@@ -653,6 +654,7 @@ To wash Dynabeads:
     * https://www.kapabiosystems.com/product-applications/products/next-generation-sequencing-2/library-amplification/
 
 KAPA real time PCR reaction mix  
+* Divide library product in half to allow for two PCR rxns per sample*
 
 Reagent	| x1
 ---- | ----
@@ -675,10 +677,8 @@ plate read||
 (6)	| Go to (2) 44X |	 
 (7) |	72 |	1min
 
-* use as few cycles as possible to obtain sufficient molarity for sequencing
-* pellet the beads in magnetic particle concentrator
-* remove the supernatant
-* purify with AMPure beads
+* run the PCR as many cycles as it takes for amplification to reach between 3500 - 4000 RFU
+* combine the PCR replicates together and proceed to bead clean-up
 
   
 ### 3.7 PCR Bead Clean-up
@@ -687,7 +687,7 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
   
 1. bring AmPure beads to room temperature
 * mix beads well
-* add an equal volume of beads to PCR rxn
+* add an equal volume of beads to PCR rxn (~100 ul)
 * pipette mix 10X
 * incubate at room temp for 10 min
 * place rxn on magnetic plate for 2 min
@@ -702,13 +702,16 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 * remove sample from magnetic plate
 * resuspend beads in 30 µl of 10 mM Tris-HCl, pH 8
 * pipette mix 10X
+* incubate at room temp for 5 min
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
   
-### 3.8 QC
+### 3.8 QC & Final Pool
 * Quantify products using Qubit dsDNA High Sensitivity kit
 * Make a 1:5 dilution of each library in sterile H20
 * Run 1 µl of diluted products on Bioanalyzer using the High Sensitivity DNA kit 
+* Make dilutions of each library at a standard concentration (ex. 20 ul of each library at 1 ng/ul)
+* Combine equal amounts of each dilution into a 1.5 ml non-stick tube in order to create final pool for sequencing
 
 
 
