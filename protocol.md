@@ -287,11 +287,11 @@ Zymo Protocol:
 * add 200 µL Wash Buffer
 * spin at 10,000 x g for 1 min 30 sec
 * transfer column to new tube
-* add 25 µL kit Resuspension Buffer (10 mM Tris-HCl, pH 8) (pre-heated to 65°C)  
+* add 25 µL of 10 mM Tris-HCl, pH 8 (pre-heated to 65°C)  
 * incubate at room temp 2 min.
 * spin at 10,000 x g for 1 min
 * keep cleaned product on ice
-  * probes can be stored at -20°C in TE buffer for at least one year
+  * probes can be stored at -20°C in Tris buffer for at least one year
 
 ### 1.13 QC 
 * Quantify probe products using Qubit dsDNA High Sensitivity kit
@@ -324,7 +324,7 @@ Treatment Time | 200 sec
 Temperature | 20°C
 
 These settings produce sheared product in the range of 100 - 400 bps
-* Run 20 ul of sheared product on a standard 1.5% agarose gel along with a 100 bp ladder to confirm size of sheared product
+* Run 20 ul of sheared product on a standard 1.0% agarose gel along with a 100 bp ladder to confirm size of sheared product
 
 ### 2.2 KAPA End Repair and A-tailing 
 (refer to the detailed Technical Data Sheet supplied with the KAPA Hyper Prep kit)
@@ -362,8 +362,8 @@ TOTAL |	110 µL
 
 * Pipette mix 5X
 * Quick spin
-* For modern samples, incubate the reaction at 20°C for 15 min
-* For ancient samples, incubate the reactions at 20°C for 4 hours
+* For **modern samples**, incubate the reaction at 20°C for 15 min
+* For **ancient samples**, incubate the reactions at 20°C for 4 hours
 
 ### 2.4 KAPA Ligation Bead Clean-up
 Perform standard 1.6X AmPure bead clean-up using the following protocol:  
