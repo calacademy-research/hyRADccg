@@ -241,6 +241,7 @@ Perform standard 1.5X AmPure bead clean-up using the following protocol:
 * remove sample from magnetic plate
 * resuspend beads in 30 µl of 10 mM Tris-HCl, pH 8
 * pipette mix 10X
+* incubate at room temp for 5 min
 * place sample on magnetic plate for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
   
@@ -253,7 +254,7 @@ Perform standard 1.5X AmPure bead clean-up using the following protocol:
 * using BioNick™ DNA Labeling System (Thermo Fisher Scientific)  
     * https://www.thermofisher.com/order/catalog/product/18247015
   
-Labeling Recipe:
+* Prepare as many biotinylation rxns that your product will allow for using the below recipe:
 
 Reagent	| x1  
 ----- | -----  
