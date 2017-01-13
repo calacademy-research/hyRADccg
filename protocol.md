@@ -589,8 +589,8 @@ Step |	Temperature (°C) |	Time
 * Close glass door, cover with foil, and tape door shut
   * hybridize (incubate at 55°C) for 65-72 hours
 
-##### 1.5-2 hours before end of hybridization: turn on one tube incubator to 65°C and one to 80°C & prepare Wash Buffer
-
+1.5-2 hours before end of hybridization: turn on one tube incubator to 65°C and one to 80°C & prepare Wash Buffer  
+  
 ### 3.3 Prepare Wash & Binding Buffers
 
 ###### Wash Buffer Recipe:
