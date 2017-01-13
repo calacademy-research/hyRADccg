@@ -2,6 +2,7 @@
 
 * This markdown document can be printed for use at the bench with no formatting worries (such as lines spanning pages).
 * The reagent-calc.md doc that is also in this repository details how we calculated the amounts of probes, blocking oligos, binding beads, and input library used in this protocol. 
+* Protocols presented here were based on those originally described by Peterson et al. 2012 and Suchan et al. 2016
 
 ## Contents  
 1. ddRAD RAD library & probe construction  
@@ -641,7 +642,7 @@ To wash Dynabeads:
 2. place beads + captures on magnetic stand for 2 min
 * remove supernatant
 * add 500 µL Wash Buffer (heated to 65°C) to the beads, vortex for 3 seconds, and pulse centrifuge
-* incubate at 55°C for 10 min, in incubator on rotator
+* incubate at 55°C for 10 min (in incubator, on rotator)
 * place on magnetic stand for 1-2 min until suspension clears
 * remove supernatant
 * perform two additional washes with 500 µL Wash Buffer for a total of three washes
@@ -677,8 +678,8 @@ plate read||
 (6)	| Go to (2) 44X |	 
 (7) |	72 |	1min
 
-* run the PCR as many cycles as it takes for amplification to reach between 3500 - 4000 RFU
-* combine the PCR replicates together and proceed to bead clean-up
+* Run the PCR as many cycles as it takes for amplification to reach between 3500 - 4000 RFU
+* Combine the PCR replicates together and proceed to bead clean-up
 
   
 ### 3.7 PCR Bead Clean-up
@@ -710,7 +711,7 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 * Quantify products using Qubit dsDNA High Sensitivity kit
 * Make a 1:5 dilution of each library in sterile H20
 * Run 1 µl of diluted products on Bioanalyzer using the High Sensitivity DNA kit 
-* Make dilutions of each library at a standard concentration (ex. 20 ul of each library at 1 ng/ul)
+* Make dilutions of each library to a standard concentration (ex. 20 ul of each library at 10 nmol)
 * Combine equal amounts of each dilution into a 1.5 ml non-stick tube in order to create final pool for sequencing
 
 
@@ -718,3 +719,5 @@ Perform standard 1.0X AmPure bead clean-up using the following protocol:
 
 ### References
 Peterson BK, Weber JN, Kay EH, Fisher HS, Hoekstra HE (2012) Double digest RADseq: an inexpensive method for de novo SNP discovery and genotyping in model and non-model species. PLoS ONE, 7, e37135.
+
+Suchan T, Pitteloud C, Gerasimova NS et al. (2016) Hybridization Capture Using RAD Probes (hyRAD), a New Tool for Performing Genomic Analyses on Collection Specimens. PloS ONE, 11, e0151651.
