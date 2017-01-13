@@ -2,7 +2,7 @@
 
 * This markdown document can be printed for use at the bench with no formatting worries (such as lines spanning pages).
 * The reagent-calc.md doc that is also in this repository details how we calculated the amounts of probes, blocking oligos, binding beads, and input library used in this protocol. 
-* Protocols presented here were based on those originally described by Peterson et al. 2012 and Suchan et al. 2016
+* Protocols presented here were based on those originally described by Peterson et al. 2012 and Suchan et al. 2016.
 
 ## Contents  
 1. ddRAD RAD library & probe construction  
