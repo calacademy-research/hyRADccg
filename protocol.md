@@ -488,7 +488,7 @@ For pooled sample captures, do the following:
 
 #### Other Notes  
   
-* Before starting make sure __bench top incubator__ (w/ rotator inside) is set to 55°C  
+* Before starting make sure __bench__ __top__ __incubator__ (w/ rotator inside) is set to 55°C  
 * Also be sure one __tube incubator__ is set to 55°C and the other is set to 95°C  
 * Perform captures in __1.5 ml screw-cap tubes with o-ring__  
   
