@@ -488,9 +488,9 @@ For pooled sample captures, do the following:
 
 #### Other Notes  
   
-* Before starting make sure __bench__ __top__ __incubator__ (w/ rotator inside) is set to 55°C  
-* Also be sure one __tube incubator__ is set to 55°C and the other is set to 95°C  
-* Perform captures in __1.5 ml screw-cap tubes with o-ring__  
+* Before starting make sure **bench top incubator** (w/ rotator inside) is set to 55°C  
+* Also be sure one **tube incubator** is set to 55°C and the other is set to 95°C  
+* Perform captures in **1.5 ml screw-cap tubes with o-ring**  
   
   
 ### 3.1 Prepare Hybridization Mix & Blockers Mix
@@ -532,7 +532,7 @@ Dilution of xGen Blockers
 
 #### Blockers Mix Recipe - Individual Captures
 To make pipetting easier, we make a 1:20 dilution of an aliquot of our stock blocking oligos.
-* take 1 µL of each oligo and add it to 19 µL 10 mM Tris-HCl, 0.1 mM EDTA, pH 8.0.
+* Take 1 µL of each oligo and add it to 19 µL 10 mM Tris-HCl, 0.1 mM EDTA, pH 8.0.
 * This gives a final concentration of 0.05 nmole/µL.
 
 Reagent	| x1
@@ -560,8 +560,8 @@ xGen Universal Blocking Oligo -TS-p5 (0.5 nmole/µL)	| 1.4 µL
 xGen Universal Blocking Oligo -TS-p7 (0.5 nmole/µL)	| 1.4 µL
 TOTAL	| 7.8 µL
 
-* aliquot 6 µL Blockers Mix to each tube
-* add library to Blockers Mix aliquot, mix by pipetting up and down
+* Aliquot 6 µL Blockers Mix to each tube
+* Add library to Blockers Mix aliquot, mix by pipetting up and down 10X
 
 ###### Amount of capture libraries to add
 * Want 7-10 µL of total volume of libraries.
@@ -584,7 +584,7 @@ Step |	Temperature (°C) |	Time
   * incubate Hybridization Mix at 55°C for 5 min
   * after completion of 5 minutes, leaving tubes in the incubators, quickly add each Hybridization Mix into each Blocker Mix + library
     * ensure cap is  screwed tightly on hybridization tube
-* quickly transfer tube to tube rotator in pre-heated (55°C) incubator 
+* Quickly transfer tube to tube rotator in pre-heated (55°C) incubator 
 * Snap tube into place and turn on rotator 
 * Close glass door, cover with foil, and tape door shut
   * hybridize (incubate at 55°C) for 65-72 hours
