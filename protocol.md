@@ -174,8 +174,8 @@ plate read||
   
 Excison Protocol:  
   
-1. Run PCR product out on a 1% low melt agarose gel along with a 100 bp ladder
-* Excise the PCR band using a sterile razor and place the gel slice in a 1.5 ml non-stick tube
+1. run PCR product out on a 1% low melt agarose gel along with a 100 bp ladder
+* excise the PCR band using a sterile razor and place the gel slice in a 1.5 ml non-stick tube
 * add 3 volumes of Buffer ADB to the tube
 * incubate the tube at 50°C for 10 min to dissolve the gel slice
 * transfer the melted gel sample to a Zymoclean DNA Recovery column
@@ -269,7 +269,7 @@ TOTAL |	50 µL
 * ensure heated lid is 10°C over incubation temperature  
 * incubate at 16°C for 1.5 hours 
 * add 5 µL Stop Buffer  
-* clean reactions using Zymo Clean & Concentrator protocol below
+* immediately clean reactions using Zymo Clean & Concentrator protocol below
 
 ### 1.12 Biotinylation Zymo Clean-Up  
 * using DNA Clean & Concentrator™-5 columns (Zymo Research)  
@@ -277,7 +277,7 @@ TOTAL |	50 µL
   
 Zymo Protocol:  
    
-1. Transfer digested sample to 1.5 ml non-stick tube
+1. transfer digested sample to 1.5 ml non-stick tube
 2. add 5X DNA Binding Buffer (50 µL * 5 = 250 µL DNA Binding Buffer)
 * spin at 4000 x g for 3 min
 * spin at 10,000 x g for 30 sec
@@ -297,7 +297,7 @@ Zymo Protocol:
 * Quantify probe products using Qubit dsDNA High Sensitivity kit
 * Run 1 µL of this product on Bioanalyzer using the High Sensitivity DNA kit
 
-#### Calculating probe amount
+#### Calculating probe amount for captures
 
 X µL of probes at Qubit concentration (ng/µL) = Z ng probes
 
@@ -374,20 +374,20 @@ Perform standard 1.5X AmPure bead clean-up using the following protocol:
 * add 165 µL of beads to ligation rxn
 * pipette mix 10X
 * incubate at room temp for 10 min
-* place rxn on magnetic plate for 2 min
+* place rxn on magnetic stand for 2 min
 * aspirate cleared solution and discard
 * dispense 200 µL of 80% ethanol to sample
 * wait 10 sec
 * aspirate out the ethanol and discard
 * repeat ethanol wash for a total of two washes
 * ensure all ethanol is removed from sample
-* place sample (on magnetic rack) in the fume hood to dry for 8 min
+* place sample (on magnetic stand) in the fume hood to dry for 8 min
 * check that all ethanol has evaporated from the sample
-* remove sample from magnetic plate
+* remove sample from magnetic stand
 * resuspend beads in 40 µl of 10 mM Tris-HCl, pH 8
 * pipette mix 10X
 * incubate at room temp for 5 min
-* place sample on magnetic plate for 2 min
+* place sample on magnetic stand for 2 min
 * aspirate eluted DNA and transfer to 0.5 ml non-stick tube
   
   
