@@ -589,7 +589,7 @@ Step |	Temperature (°C) |	Time
 * Close glass door, cover with foil, and tape door shut
   * hybridize (incubate at 55°C) for 65-72 hours
 
-1.5-2 hours before end of hybridization: turn on one tube incubator to 65°C and one to 80°C & prepare Wash Buffer  
+Note: 1.5-2 hours before end of hybridization: turn on one tube incubator to 65°C and one to 80°C & prepare Wash Buffer  
   
 ### 3.3 Prepare Wash & Binding Buffers
 
@@ -602,17 +602,17 @@ H2O	| 39.6 mL
 0.1X SSC, 0.1% SDS (= MyBaits Wash Buffer #2)|	10 mL
 TOTAL	| 50 mL
 * vortex thoroughly to mix
-* heat Wash Buffer aliquots to 65°C (hybridization temperature) for at least 45 min before use
+* heat Wash Buffer aliquots to 65°C for at least 45 min before use
 
 ###### 2X Binding Buffer Recipe:  
 2 M NaCl  
 10 mM Tris-HCl, pH 7.5  
 1 mM EDTA  
 0.5% Tween
-* it is efficient to make 45-50 mls of the 2X Binding Buffer
-* from this, prepare 10 mls of 1X Binding Buffer
+* It is efficient to make 45-50 mls of the 2X Binding Buffer
+* From this, prepare 10 mls of 1X Binding Buffer
 
-* bring Dynabeads to room temp and bring aliquot of AmPure beads to room temp
+* Bring Dynabeads to room temp and bring aliquot of AmPure beads to room temp
 
 ### 3.4 Dynabead Preparation
 
@@ -626,7 +626,7 @@ To wash Dynabeads:
 * place on magnetic plate for 2 min until suspension clears
 * aspirate out supernatant and discard
 * perform **two**  additional washes with 200 µL 1X Binding Buffer to give a total of **three** washes
-* finally, resuspend each washed bead aliquot in 70 µL 2X Binding Buffer - DO NOT pipette mix. Add buffer, gentle vortex and pulse spin  
+* finally, resuspend each washed bead aliquot in 70 µL of 2X Binding Buffer - DO NOT pipette mix. Add buffer, gentle vortex and pulse spin.  
   
 
 ### 3.5 Bead Binding & Washing
@@ -634,7 +634,7 @@ To wash Dynabeads:
 #### Binding of Beads to Probes
 1. heat bead aliquot to 65°C for at least 10 min (use tube incubator)
 * transfer capture reaction to heated bead aliquot, invert tube to mix
-* incubate beads + captures at room temp for 30 min on nutator
+* incubate beads + captures at room temp for 30 min on **nutator**
 
 #### Bead Washing
 1. quick spin
