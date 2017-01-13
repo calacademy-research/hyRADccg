@@ -1,4 +1,4 @@
-# hyRADmod
+# hyRADccg: Center for Comparative Genomics (CCG) modified hyRAD protocol  
 
 This is a modified version of the protocol for hybridization capture using restriction site associated DNA (RAD) markers to create probes (hyRAD) originally described in Suchan et al. (2016) and the wetlab protocol for which is available at (https://github.com/TomaszSuchan/hyRAD)  
 
