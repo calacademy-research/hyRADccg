@@ -488,9 +488,9 @@ For pooled sample captures, do the following:
 
 #### Other Notes  
   
-* Before starting make sure **bench top incubator** (w/ rotator inside) is set to 55°C  
-* Also be sure one **tube incubator** is set to 55°C and the other is set to 95°C  
-* Perform captures in **1.5 ml screw-cap tubes with o-ring**  
+* Before starting make sure __bench top incubator__ (w/ rotator inside) is set to 55°C  
+* Also be sure one __tube incubator__ is set to 55°C and the other is set to 95°C  
+* Perform captures in __1.5 ml screw-cap tubes with o-ring__  
   
   
 ### 3.1 Prepare Hybridization Mix & Blockers Mix
@@ -544,7 +544,7 @@ TOTAL	| 6 µL
 
 #### Blockers Mix Recipe - Pooled Captures
 To make pipetting easier, let's make a 1:10 dilution of an aliquot of our stock blocking oligos.
-* take 1 µL of each oligo and add it to 9 µL 10 mM Tris-HCl, 0.1 mM EDTA, pH 8.0.
+* Take 1 µL of each oligo and add it to 9 µL 10 mM Tris-HCl, 0.1 mM EDTA, pH 8.0.
 * This gives a final concentration of 0.5 nmole/µL.
 
 ###### Pooling 7 samples
