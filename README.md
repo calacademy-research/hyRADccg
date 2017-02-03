@@ -22,8 +22,8 @@ Suchan T., Pitteloud C., Gerasimova NS., Kostikova A., Schmid S., Arrigo N., Paj
 
 Protocol and README.md authors: Zachary R. Hanna, zachanna@berkeley.edu; Anna B. Sellas, ASellas@calacademy.org
 
-Please cite this repository as follows:  
-Hanna ZR, Sellas AB (2017) hyRADccg Version 1.0.0. Zenodo. DOI: 10.5281/zenodo.268048.  
-
 #### Version 1.0.0
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.268048.svg)](https://doi.org/10.5281/zenodo.268048)
+
+#### Please cite this repository as follows:  
+Hanna ZR, Sellas AB (2017) hyRADccg Version 1.0.0. Zenodo. DOI: 10.5281/zenodo.268048.  
