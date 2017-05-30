@@ -8,7 +8,7 @@
 [1. ddRAD RAD library & probe construction](#1\.-ddrad-rad-library-\&-probe-construction)  
 [1.1 Double Digest](#1\.1-Double-Digest)  
 1.2 Double Digest Zymo Clean-Up  
-[1.3 Ligation](protocol#markdown-header-1.3-ligation)  
+[1.3 Ligation](#markdown-header-1.3-ligation)  
 1.4 Ligation Bead Clean-Up  
 1.5 Size Selection  
 1.6 RT PCR  
