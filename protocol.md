@@ -9,33 +9,33 @@
 [1.1 Double Digest](#11-double-digest)  
 [1.2 Double Digest Zymo Clean-Up](#12-double-digest-zymo-clean-up)  
 [1.3 Ligation](#13-ligation)  
-[1.4 Ligation Bead Clean-Up](#14-ligation-bead-clean---up)  
+[1.4 Ligation Bead Clean-Up](#14-ligation-bead-clean-up)  
 [1.5 Size Selection](#15-size-selection)  
 [1.6 RT PCR](#16-rt-pcr)  
-[1.7 PCR Clean-up Using Gel Excision](#17-pcr-clean---up-using-gel-excision)  
+[1.7 PCR Clean-up Using Gel Excision](#17-pcr-clean-up-using-gel-excision)  
 [1.8 QC](#18-qc)  
 [1.9 Deadapterization](#19-deadapterization)  
-[1.10 Deadapterization Bead Clean-Up](#110-deadapterization-bead-clean---up)  
+[1.10 Deadapterization Bead Clean-Up](#110-deadapterization-bead-clean-up)  
 [1.11 Probe Biotinylation](#111-probe-biotinylation)  
-[1.12 Biotinylation Zymo Clean-Up](#112-biotinylation-zymo-clean---up)  
+[1.12 Biotinylation Zymo Clean-Up](#112-biotinylation-zymo-clean-up)  
 [1.13 QC](#113-qc)  
 [2. Whole-genome Library Preps (for captures)](#2-whole-genome-library-preps-for-captures)  
-2.1 Covaris shearing (for modern samples only)  
-2.2 KAPA End Repair and A-tailing  
-2.3 KAPA Ligation  
-2.4 KAPA Ligation Bead Clean-up  
-2.5 RT-PCR  
-2.6 PCR Bead Clean-up  
-2.7 QC  
+[2.1 Covaris shearing (for modern samples only)](#21-covaris-shearing-for-modern-samples-only)    
+[2.2 KAPA End Repair and A-tailing](#22-kapa-end-repair-and-a-tailing)  
+[2.3 KAPA Ligation](#23-kapa-ligation)  
+[2.4 KAPA Ligation Bead Clean-up](#24-kapa-ligation-bead-clean-up)  
+[2.5 RT-PCR](#25-rt-pcr)  
+[2.6 PCR Bead Clean-up](#26--pcr-bead-clean-up)  
+[2.7 QC](#27-qc)  
 [3. Hybridization](#3-hybridization)  
-3.1 Prepare Hybridization Mix & Blockers Mix  
-3.2 Incubation  
-3.3 Prepare Wash & Binding Buffers  
-3.4 Dynabead Preparation  
-3.5 Bead Binding & Washing  
-3.6 RT-PCR  
-3.7 PCR Bead Clean-up  
-3.8 QC  
+[3.1 Prepare Hybridization Mix & Blockers Mix](#31-prepare-hybridization-mix-blockers-mix)  
+[3.2 Incubation](#32-incubation)  
+[3.3 Prepare Wash & Binding Buffers](#33-prepare-wash-binding-buffers)  
+[3.4 Dynabead Preparation](#34-dynabead-preparation)  
+[3.5 Bead Binding & Washing](#35-bead-binding-washing)  
+[3.6 RT-PCR](#36-rt-pcr)  
+[3.7 PCR Bead Clean-up](#37-pcr-bead-clean-up)  
+[3.8 QC](#38-qc)  
   
 ## 1. ddRAD RAD library & probe construction
 Use the below protocol or your favorite other method for construction of a ddRAD library.  
