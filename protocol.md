@@ -19,7 +19,7 @@
 1.11 Probe Biotinylation  
 1.12 Biotinylation Zymo Clean-Up  
 1.13 QC  
-[2. Whole-genome Library Preps (for captures)](2-whole-genome-library-preps-for-captures)  
+[2. Whole-genome Library Preps (for captures)](#2-whole-genome-library-preps-for-captures)  
 2.1 Covaris shearing (for modern samples only)  
 2.2 KAPA End Repair and A-tailing  
 2.3 KAPA Ligation  
@@ -27,7 +27,7 @@
 2.5 RT-PCR  
 2.6 PCR Bead Clean-up  
 2.7 QC  
-[3. Hybridization](3-hybridization)  
+[3. Hybridization](#3-hybridization)  
 3.1 Prepare Hybridization Mix & Blockers Mix  
 3.2 Incubation  
 3.3 Prepare Wash & Binding Buffers  
