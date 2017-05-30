@@ -7,12 +7,12 @@
 ## Contents  
 [1. ddRAD RAD library & probe construction](#1-ddrad-rad-library--probe-construction)      
 [1.1 Double Digest](#11-double-digest)  
-[1.2 Double Digest Zymo Clean-Up](#12-double-digest-zymo-clean-Up)  
+[1.2 Double Digest Zymo Clean-Up](#12-double-digest-zymo-clean--Up)  
 [1.3 Ligation](#13-ligation)  
-1.4 Ligation Bead Clean-Up  
-1.5 Size Selection  
-1.6 RT PCR  
-1.7 PCR Clean-up Using Gel Excision  
+[1.4 Ligation Bead Clean-Up](#14-ligation-bead-clean--Up)  
+[1.5 Size Selection](#15-size-selection)  
+[1.6 RT PCR](#16-rt-pcr)  
+[1.7 PCR Clean-up Using Gel Excision](#17-pcr-clean--up-using-gel-excision)  
 1.8 QC  
 1.9 Deadapterization  
 1.10 Deadapterization Bead Clean-Up  
