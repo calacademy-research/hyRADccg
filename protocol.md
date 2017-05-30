@@ -5,10 +5,10 @@
 * Protocols presented here were based on those originally described by Peterson et al. 2012 and Suchan et al. 2016.
 
 ## Contents  
-[1. ddRAD RAD library & probe construction](#1\.-ddrad-rad-library-\&-probe-construction)  
-[1.1 Double Digest](#1\.1-Double-Digest)  
+1. ddRAD RAD library & probe construction    
+1.1 Double Digest  
 1.2 Double Digest Zymo Clean-Up  
-[1.3 Ligation](#markdown-header-1.3-ligation)  
+1.3 Ligation  
 1.4 Ligation Bead Clean-Up  
 1.5 Size Selection  
 1.6 RT PCR  
