@@ -5,7 +5,7 @@
 * Protocols presented here were based on those originally described by Peterson et al. 2012 and Suchan et al. 2016.
 
 ## Contents  
-[1. ddRAD RAD library & probe construction](#1-ddrad-rad-library--probe-construction)      
+[**1. ddRAD RAD library & probe construction**](#1-ddrad-rad-library--probe-construction)      
 [1.1 Double Digest](#11-double-digest)  
 [1.2 Double Digest Zymo Clean-Up](#12-double-digest-zymo-clean-up)  
 [1.3 Ligation](#13-ligation)  
@@ -19,7 +19,7 @@
 [1.11 Probe Biotinylation](#111-probe-biotinylation)  
 [1.12 Biotinylation Zymo Clean-Up](#112-biotinylation-zymo-clean-up)  
 [1.13 QC](#113-qc)  
-[2. Whole-genome Library Preps (for captures)](#2-whole-genome-library-preps-for-captures)  
+[**2. Whole-genome Library Preps (for captures)**](#2-whole-genome-library-preps-for-captures)  
 [2.1 Covaris shearing (for modern samples only)](#21-covaris-shearing-for-modern-samples-only)    
 [2.2 KAPA End Repair and A-tailing](#22-kapa-end-repair-and-a-tailing)  
 [2.3 KAPA Ligation](#23-kapa-ligation)  
@@ -27,7 +27,7 @@
 [2.5 RT-PCR](#25-rt-pcr)  
 [2.6 PCR Bead Clean-up](#26-pcr-bead-clean-up)  
 [2.7 QC](#27-qc)  
-[3. Hybridization](#3-hybridization)  
+[**3. Hybridization**](#3-hybridization)  
 [3.1 Prepare Hybridization Mix & Blockers Mix](#31-prepare-hybridization-mix--blockers-mix)  
 [3.2 Incubation](#32-incubation)  
 [3.3 Prepare Wash & Binding Buffers](#33-prepare-wash--binding-buffers)  
