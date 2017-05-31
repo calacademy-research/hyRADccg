@@ -31,7 +31,7 @@
 [3.1 Prepare Hybridization Mix & Blockers Mix](#31-prepare-hybridization-mix--blockers-mix)  
 [3.2 Incubation](#32-incubation)  
 [3.3 Prepare Wash & Binding Buffers](#33-prepare-wash--binding-buffers)  
-[3.4 Dynabead Preparation](#34-dynabead-preparation-1)  
+[3.4 Dynabead Preparation](#34-dynabead-preparation)  
 [3.5 Bead Binding & Washing](#35-bead-binding--washing)  
 [3.6 RT-PCR](#36-rt-pcr)  
 [3.7 PCR Bead Clean-up](#37-pcr-bead-clean-up)  
