@@ -21,10 +21,10 @@ Suchan T., Pitteloud C., Gerasimova NS., Kostikova A., Schmid S., Arrigo N., Paj
 
 #### Authorship
 
-Protocol and README.md authors: Zachary R. Hanna, zachanna@berkeley.edu; Anna B. Sellas, ASellas@calacademy.org
+Protocol and README.md authors: <a href="https://orcid.org/0000-0002-0210-7261" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em," alt="ORCID iD icon">Zachary R. Hanna</a>, Anna B. Sellas
 
 #### Version 1.0.0
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.268048.svg)](https://doi.org/10.5281/zenodo.268048)
 
 #### Please cite this repository as follows:  
-Hanna ZR, Sellas AB (2017) hyRADccg Version 1.0.0. Zenodo. DOI: 10.5281/zenodo.268048.  
+<a href="https://orcid.org/0000-0002-0210-7261" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em," alt="ORCID iD icon">Hanna ZR</a>, Sellas AB (2017) hyRADccg Version 1.0.0. Zenodo. DOI: 10.5281/zenodo.268048.  
